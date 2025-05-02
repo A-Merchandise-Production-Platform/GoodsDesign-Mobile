@@ -1,20 +1,55 @@
 import { useState } from "@lynx-js/react";
+import { useNavigate } from "react-router";
 import { PictureEnum, pictureMap } from "../components/images.jsx";
-
+import { AuthService } from "../stores/auth.store.js";
+import { API_URL } from "../graphql/constants.js";
+import { LOGIN_MUTATION } from "../graphql/queries/auth.js";
 export default function LoginPage() {
+  const nav = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleLogin = () => {
+  const handleLogin = async () => {
     if (!email || !password) return;
-
     setIsLoading(true);
-    alert(`Login attempt with: ${email} ${password}`);
 
-    setTimeout(() => {
+    try {
+      const response = await fetch(API_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          query: LOGIN_MUTATION,
+          variables: {
+            loginInput: {
+              email,
+              password,
+            },
+          },
+        }),
+      });
+
+      const result = await response.json();
+      const loginResult = result?.data?.login;
+
+      if (loginResult) {
+        await AuthService.login({
+          accessToken: loginResult.accessToken,
+          refreshToken: loginResult.refreshToken,
+          user: loginResult.user,
+        });
+        console.log("Login successful");
+      } else {
+        alert(result.errors?.[0]?.message || "Login failed");
+      }
+    } catch (error) {
+      console.error("Login error", error);
+      alert("Network or server error");
+    } finally {
       setIsLoading(false);
-    }, 1500);
+    }
   };
 
   return (
@@ -62,7 +97,9 @@ export default function LoginPage() {
 
         {/* Login Button */}
         <view
-          bindtap={handleLogin}
+          bindtap={() => {
+            handleLogin();
+          }}
           className={`h-14 flex justify-center items-center rounded-xl transition-all duration-200 ${
             isLoading ? "bg-indigo-400" : "bg-indigo-600 hover:bg-indigo-700"
           } ${!email || !password ? "opacity-60" : "opacity-100"}`}

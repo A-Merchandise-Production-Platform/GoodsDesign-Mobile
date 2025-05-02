@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
     <view>
-        <text>HomePage</text>
+        <text>TaskPage</text>
     </view>
   )
 }
