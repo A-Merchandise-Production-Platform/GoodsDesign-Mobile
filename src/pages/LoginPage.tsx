@@ -1,217 +1,77 @@
-import { useState } from "@lynx-js/react"
-import { PictureEnum, pictureMap } from "../components/images.jsx"
+import { useState } from "@lynx-js/react";
+import { PictureEnum, pictureMap } from "../components/images.jsx";
 
 export default function LoginPage() {
-  const [email, setEmail] = useState("")
-  const [password, setPassword] = useState("")
-  const [isLoading, setIsLoading] = useState(false)
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleLogin = () => {
-    if (!email || !password) return
+    if (!email || !password) return;
 
-    setIsLoading(true)
-    alert(`Login attempt with: ${email} ${password}`)
+    setIsLoading(true);
+    alert(`Login attempt with: ${email} ${password}`);
 
-    // Simulate API call
     setTimeout(() => {
-      setIsLoading(false)
-    }, 1500)
-  }
+      setIsLoading(false);
+    }, 1500);
+  };
 
   return (
-    <view
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        padding: 20,
-        backgroundColor: "#f8fafc",
-      }}
-    >
-      <view
-        style={{
-          width: "100%",
-          maxWidth: 400,
-          padding: 24,
-          backgroundColor: "#ffffff",
-          borderRadius: 12,
-        }}
-      >
-        {/* Logo and App Name */}
-        <view
-          style={{
-            alignItems: "center",
-            marginBottom: 32,
-          }}
-        >
+    <view className="flex flex-1 justify-center items-center px-6 py-16 bg-white h-screen">
+      <view className="w-full max-w-lg shadow-lg rounded-3xl p-6 -mt-24 bg-white">
+        {/* Header */}
+        <view className="flex flex-col items-center mb-10">
           <image
-            style={{
-              width: "80%",
-              aspectRatio: pictureMap[PictureEnum.Logo].width / pictureMap[PictureEnum.Logo].height,
-              marginBottom: 16,
-            }}
+            className="w-20 h-20 mb-4"
             src={pictureMap[PictureEnum.Logo].src}
           />
-          <text
-            style={{
-              fontSize: 28,
-              fontWeight: "bold",
-              color: "#1e293b",
-              marginTop: 8,
-            }}
-          >
-            Lynx
-          </text>
-          <text
-            style={{
-              fontSize: 16,
-              color: "#64748b",
-              marginTop: 4,
-            }}
-          >
-            Sign in to your account
+          <text className="text-4xl font-bold text-slate-800">GoodsDesign</text>
+          <text className="text-lg text-slate-500 mt-2">
+            Sign in to your staff account
           </text>
         </view>
 
-        {/* Email Input */}
-        <view
-          style={{
-            marginBottom: 20,
-          }}
-        >
-          <text
-            style={{
-              fontSize: 14,
-              fontWeight: "500",
-              color: "#475569",
-              marginBottom: 6,
-            }}
-          >
-            Email address
+        {/* Email Field */}
+        <view className="mb-6">
+          <text className="text-base font-medium text-slate-700 mb-2">
+            Email
           </text>
           <input
             type="text"
             placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            style={{
-              height: 48,
-              borderWidth: 1,
-              borderColor: "#cbd5e1",
-              borderRadius: 8,
-              paddingLeft: 16,
-              paddingRight: 16,
-              fontSize: 16,
-              backgroundColor: "#ffffff",
-              width: "100%",
-            }}
+            className="w-full h-14 px-5 border border-slate-300 rounded-xl text-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
         </view>
 
-        {/* Password Input */}
-        <view
-          style={{
-            marginBottom: 24,
-          }}
-        >
-          <view
-            style={{
-              flexDirection: "row",
-              justifyContent: "space-between",
-              alignItems: "center",
-              marginBottom: 6,
-            }}
-          >
-            <text
-              style={{
-                fontSize: 14,
-                fontWeight: "500",
-                color: "#475569",
-              }}
-            >
-              Password
-            </text>
-            <text
-              style={{
-                fontSize: 14,
-                color: "#3b82f6",
-                fontWeight: "500",
-              }}
-            >
-              Forgot password?
-            </text>
-          </view>
+        {/* Password Field */}
+        <view className="mb-8">
+          <text className="text-base font-medium text-slate-700 mb-2">
+            Password
+          </text>
           <input
             type="password"
             placeholder="Enter your password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            style={{
-              height: 48,
-              borderWidth: 1,
-              borderColor: "#cbd5e1",
-              borderRadius: 8,
-              paddingLeft: 16,
-              paddingRight: 16,
-              fontSize: 16,
-              backgroundColor: "#ffffff",
-              width: "100%",
-            }}
+            className="w-full h-14 px-5 border border-slate-300 rounded-xl text-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
         </view>
 
         {/* Login Button */}
         <view
           bindtap={handleLogin}
-          style={{
-            backgroundColor: isLoading ? "#60a5fa" : "#3b82f6",
-            borderRadius: 8,
-            height: 50,
-            justifyContent: "center",
-            alignItems: "center",
-            marginTop: 8,
-            cursor: "pointer",
-            opacity: !email || !password ? 0.7 : 1,
-          }}
+          className={`h-14 flex justify-center items-center rounded-xl transition-all duration-200 ${
+            isLoading ? "bg-indigo-400" : "bg-indigo-600 hover:bg-indigo-700"
+          } ${!email || !password ? "opacity-60" : "opacity-100"}`}
         >
-          <text
-            style={{
-              color: "#ffffff",
-              fontSize: 16,
-              fontWeight: "600",
-            }}
-          >
+          <text className="text-white text-lg font-semibold">
             {isLoading ? "Signing in..." : "Sign in"}
-          </text>
-        </view>
-
-        {/* Sign Up Link */}
-        <view
-          style={{
-            flexDirection: "row",
-            justifyContent: "center",
-            marginTop: 24,
-          }}
-        >
-          <text
-            style={{
-              fontSize: 14,
-              color: "#64748b",
-            }}
-          >
-            Don't have an account?{" "}
-          </text>
-          <text
-            style={{
-              fontSize: 14,
-              color: "#3b82f6",
-              fontWeight: "500",
-            }}
-          >
-            Sign up
           </text>
         </view>
       </view>
     </view>
-  )
+  );
 }

@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Light mode - Claude AI inspired */
+    --background: 0 0% 100%;
+    --foreground: 270 4% 9%;
+    --background-secondary: 270 4% 96%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 270 4% 9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 270 4% 9%;
+
+    --primary: 265 50% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 270 4% 96%;
+    --secondary-foreground: 270 4% 9%;
+
+    --muted: 270 4% 96%;
+    --muted-foreground: 270 4% 45%;
+
+    --accent: 265 50% 95%;
+    --accent-foreground: 265 50% 40%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 98%;
+
+    --info: 217 91% 60%;
+    --info-foreground: 0 0% 98%;
+
+    --tertiary: 262 83% 58%;
+    --tertiary-foreground: 0 0% 98%;
+
+    --quaternary: 326 100% 74%;
+    --quaternary-foreground: 0 0% 98%;
+
+    --border: 270 4% 91%;
+    --input: 270 4% 91%;
+    --ring: 265 50% 60%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar light mode */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 270 4% 26%;
+    --sidebar-primary: 265 50% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 4% 96%;
+    --sidebar-accent-foreground: 270 4% 9%;
+    --sidebar-border: 270 4% 91%;
+    --sidebar-ring: 217 91% 60%;
+
+    /* Charts */
+    --chart-1: 265 50% 60%;
+    --chart-2: 242 95% 68%;
+    --chart-3: 217 91% 60%;
+    --chart-4: 291 92% 60%;
+    --chart-5: 326 100% 74%;
+}
