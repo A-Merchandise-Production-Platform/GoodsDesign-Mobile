@@ -10,16 +10,17 @@
     "preview": "rspeedy preview"
   },
   "dependencies": {
-    "@lynx-js/react": "^0.106.3",
-    "react-router": "^6.30.0"
+    "@lynx-js/react": "latest",
+    "react-router": "latest",
+    "zustand": "^5.0.4"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@lynx-js/qrcode-rsbuild-plugin": "^0.3.5",
-    "@lynx-js/react-rsbuild-plugin": "^0.9.5",
-    "@lynx-js/rspeedy": "^0.9.0",
-    "@lynx-js/tailwind-preset": "^0.0.2",
-    "@lynx-js/types": "^3.2.0",
+    "@lynx-js/qrcode-rsbuild-plugin": "latest",
+    "@lynx-js/react-rsbuild-plugin": "latest",
+    "@lynx-js/rspeedy": "latest",
+    "@lynx-js/tailwind-preset": "latest",
+    "@lynx-js/types": "latest",
     "@types/react": "^18.3.20",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",

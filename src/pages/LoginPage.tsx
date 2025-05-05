@@ -1,17 +1,23 @@
 import { useState } from "@lynx-js/react";
 import { useNavigate } from "react-router";
 import { PictureEnum, pictureMap } from "../components/images.jsx";
-import { AuthService } from "../stores/auth.store.js";
+import { useAuthStore } from "../stores/auth.store.js";
 import { API_URL } from "../graphql/constants.js";
 import { LOGIN_MUTATION } from "../graphql/queries/auth.js";
+
 export default function LoginPage() {
   const nav = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [notification, setNotification] = useState("");
+  const login = useAuthStore((state) => state.login);
 
   const handleLogin = async () => {
-    if (!email || !password) return;
+    if (!email || !password) {
+      setNotification("Email and password are required");
+      return;
+    }
     setIsLoading(true);
 
     try {
@@ -24,32 +30,57 @@ export default function LoginPage() {
           query: LOGIN_MUTATION,
           variables: {
             loginInput: {
-              email,
-              password,
+              email: email,
+              password: password,
             },
           },
         }),
       });
 
-      const result = await response.json();
-      const loginResult = result?.data?.login;
-
-      if (loginResult) {
-        await AuthService.login({
-          accessToken: loginResult.accessToken,
-          refreshToken: loginResult.refreshToken,
-          user: loginResult.user,
-        });
-        console.log("Login successful");
-      } else {
-        alert(result.errors?.[0]?.message || "Login failed");
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
       }
+
+      const result = await response.json();
+
+      if (result.errors) {
+        const errorMessage =
+          result.errors[0]?.message || "An error occurred during login.";
+        setNotification(errorMessage);
+        return;
+      }
+
+      const loginResult = result.data?.login;
+
+      if (!loginResult) {
+        setNotification("Login failed: No data returned.");
+        return;
+      }
+
+      login({
+        accessToken: loginResult.accessToken,
+        refreshToken: loginResult.refreshToken,
+        user: loginResult.user,
+      });
+      setNotification("Login successful");
+      console.log("Login successful");
+      nav("/task", { replace: true });
     } catch (error) {
+      setNotification(
+        error instanceof Error ? error.message : "An unknown error occurred"
+      );
       console.error("Login error", error);
-      alert("Network or server error");
     } finally {
       setIsLoading(false);
     }
+  };
+
+  const handleEmailChange = (event: any) => {
+    setEmail(event.detail.value);
+  };
+
+  const handlePasswordChange = (event: any) => {
+    setPassword(event.detail.value);
   };
 
   return (
@@ -76,7 +107,7 @@ export default function LoginPage() {
             type="text"
             placeholder="Enter your email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            bindinput={handleEmailChange}
             className="w-full h-14 px-5 border border-slate-300 rounded-xl text-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
         </view>
@@ -90,7 +121,7 @@ export default function LoginPage() {
             type="password"
             placeholder="Enter your password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            bindinput={handlePasswordChange}
             className="w-full h-14 px-5 border border-slate-300 rounded-xl text-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
         </view>
@@ -107,6 +138,11 @@ export default function LoginPage() {
           <text className="text-white text-lg font-semibold">
             {isLoading ? "Signing in..." : "Sign in"}
           </text>
+        </view>
+
+        {/* Notification Display */}
+        <view className="mt-4 p-4 bg-indigo-100 rounded-xl">
+          <text className="text-indigo-600 mt-1">{notification}</text>
         </view>
       </view>
     </view>
