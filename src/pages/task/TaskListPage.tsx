@@ -135,7 +135,7 @@ export default function TaskListPage() {
             Unable to load orders
           </text>
           <text className="text-red-500 text-center mb-6">{error}</text>
-          <view className="bg-white rounded-xl p-5 shadow-sm border border-red-100">
+          <view className="bg-white rounded-xl p-5 border border-red-100">
             <text className="text-gray-700 text-center">
               Please check your connection and tap here to try again.
             </text>
@@ -161,7 +161,7 @@ export default function TaskListPage() {
       </view>
 
       {/* Tabs */}
-      <view className="flex-row bg-white border-b border-gray-200 px-2 shadow-sm">
+      <view className="flex-row bg-white border-b border-gray-200">
         <view
           className={`py-4 px-5 ${
             selectedTab === "quality_check"
@@ -221,14 +221,14 @@ export default function TaskListPage() {
               return (
                 <view
                   key={order.id}
-                  bindtap={() => nav(`/task/${order.id}`)}
+                  bindtap={() => nav(`/task/${order.id}`, { replace: false })}
                   className="bg-white rounded-2xl  overflow-hidden border border-gray-200 w-full"
                 >
                   {/* Order Header */}
                   <view>
                     <view className="flex-row justify-between items-center">
                       <view className="flex-row items-center">
-                        <view className="bg-white rounded-lg shadow-sm p-2">
+                        <view className="bg-white rounded-lg p-2">
                           <text className="text-lg font-bold text-gray-800 mt-4">
                             #{order.id}
                           </text>
@@ -243,7 +243,7 @@ export default function TaskListPage() {
                         </view>
                       </view>
                       <view
-                        className={`px-4 py-2 mt-4 rounded-full ${statusStyle.bg} border ${statusStyle.border} shadow-sm`}
+                        className={`px-4 py-2 mt-4 rounded-full ${statusStyle.bg} border ${statusStyle.border}`}
                       >
                         <text
                           className={`text-sm font-bold ${statusStyle.text}`}
@@ -262,7 +262,7 @@ export default function TaskListPage() {
                           Customer
                         </text>
                         <view className="flex-row items-center bg-gray-50 p-3 rounded-xl border border-gray-200">
-                          <view className="w-10 h-10 rounded-full bg-blue-100 items-center justify-center shadow-sm">
+                          <view className="w-10 h-10 rounded-full bg-blue-100 items-center justify-center">
                             <text className="text-blue-600 font-bold text-lg">
                               {order?.customer?.name?.charAt(0) || "C"}
                             </text>
@@ -277,7 +277,7 @@ export default function TaskListPage() {
                           Factory
                         </text>
                         <view className="flex-row items-center bg-gray-50 p-3 rounded-xl border border-gray-200">
-                          <view className="w-10 h-10 rounded-full bg-purple-100 items-center justify-center shadow-sm">
+                          <view className="w-10 h-10 rounded-full bg-purple-100 items-center justify-center">
                             <text className="text-purple-600 font-bold text-lg">
                               {order?.factory?.name?.charAt(0) || "F"}
                             </text>
@@ -325,7 +325,7 @@ export default function TaskListPage() {
                         </text>
                         <view className="bg-gray-50 p-3 rounded-xl border border-gray-200">
                           <view className="flex-row items-center">
-                            <view className="w-10 h-10 rounded-full bg-green-100 items-center justify-center shadow-sm">
+                            <view className="w-10 h-10 rounded-full bg-green-100 items-center justify-center">
                               <text className="text-green-600 font-bold text-lg">
                                 {order.totalItems}
                               </text>
