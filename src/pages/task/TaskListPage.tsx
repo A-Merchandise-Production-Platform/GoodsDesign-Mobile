@@ -1,12 +1,12 @@
-"use client";
-
 import { useState, useEffect } from "@lynx-js/react";
+import { useNavigate } from "react-router";
 import { useAuthStore } from "../../stores/auth.store.js";
 import { TASK_QUERY } from "../../graphql/queries/task.js";
 import type { StaffOrder } from "../../types/task.js";
 import { API_URL } from "../../graphql/constants.js";
 
 export default function TaskListPage() {
+  const nav = useNavigate();
   const { user, accessToken } = useAuthStore();
   const [orders, setOrders] = useState<StaffOrder[]>([]);
   const [loading, setLoading] = useState(true);
@@ -221,6 +221,7 @@ export default function TaskListPage() {
               return (
                 <view
                   key={order.id}
+                  bindtap={() => nav(`/task/${order.id}`)}
                   className="bg-white rounded-2xl  overflow-hidden border border-gray-200 w-full"
                 >
                   {/* Order Header */}

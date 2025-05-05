@@ -141,9 +141,11 @@ export default function LoginPage() {
         </view>
 
         {/* Notification Display */}
-        <view className="mt-4 p-4 bg-indigo-100 rounded-xl">
-          <text className="text-indigo-600 mt-1">{notification}</text>
-        </view>
+        {notification && (
+          <view className="mt-4 p-4 bg-indigo-100 rounded-xl">
+            <text className="text-indigo-600 mt-1">{notification}</text>
+          </view>
+        )}
       </view>
     </view>
   );
