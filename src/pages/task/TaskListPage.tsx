@@ -1,12 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "@lynx-js/react";
-import { useAuthStore } from "../stores/auth.store.js";
-import { TASK_QUERY } from "../graphql/queries/task.js";
-import type { StaffOrder } from "../types/task.d.ts";
-import { API_URL } from "../graphql/constants.js";
+import { useAuthStore } from "../../stores/auth.store.js";
+import { TASK_QUERY } from "../../graphql/queries/task.js";
+import type { StaffOrder } from "../../types/task.js";
+import { API_URL } from "../../graphql/constants.js";
 
-export default function TaskPage() {
+export default function TaskListPage() {
   const { user, accessToken } = useAuthStore();
   const [orders, setOrders] = useState<StaffOrder[]>([]);
   const [loading, setLoading] = useState(true);
