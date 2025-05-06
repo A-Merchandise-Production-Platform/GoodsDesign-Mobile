@@ -2,8 +2,9 @@ import { useState, useEffect } from "@lynx-js/react";
 import { useNavigate } from "react-router";
 import { useAuthStore } from "../../stores/auth.store.js";
 import { TASK_QUERY } from "../../graphql/queries/task.js";
+import { graphqlFetch } from "../../graphql/client.js";
 import type { StaffOrder } from "../../types/task.js";
-import { API_URL } from "../../graphql/constants.js";
+import { formatDate } from "../../utils/format.js";
 
 export default function TaskListPage() {
   const nav = useNavigate();
@@ -24,30 +25,11 @@ export default function TaskListPage() {
       }
 
       try {
-        const response = await fetch(API_URL, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${accessToken}`,
-          },
-          body: JSON.stringify({
-            query: TASK_QUERY,
-          }),
-        });
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-
-        const result = await response.json();
-
-        if (result.errors) {
-          throw new Error(
-            result.errors[0]?.message || "Failed to fetch orders"
-          );
-        }
-
-        setOrders(result.data.staffOrders);
+        const result = await graphqlFetch<{ staffOrders: StaffOrder[] }>(
+          TASK_QUERY,
+          accessToken
+        );
+        setOrders(result.staffOrders);
       } catch (err) {
         setError(
           err instanceof Error ? err.message : "An unknown error occurred"
@@ -64,8 +46,6 @@ export default function TaskListPage() {
   const filteredOrders = orders.filter((order) => {
     if (selectedTab === "all") return true;
     if (selectedTab === "quality_check") {
-      // Assuming quality check orders have a specific characteristic
-      // For example, orders with tasks that include quality checks
       return order.tasks.some(
         (task) =>
           task.taskname.toLowerCase().includes("quality") ||
@@ -102,16 +82,6 @@ export default function TaskListPage() {
     };
   };
 
-  // Format date to be more readable
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-    });
-  };
-
   if (loading) {
     return (
       <view className=" items-center justify-center bg-gray-50">
@@ -146,9 +116,9 @@ export default function TaskListPage() {
   }
 
   return (
-    <view className="">
+    <view className="pt-4 pb-4">
       {/* Header */}
-      <view className="bg-gradient-to-r from-blue-600 to-purple-600 px-5 py-6 mt-4">
+      <view className="bg-gradient-to-r from-blue-600 to-purple-600 px-5 py-6">
         <view className="justify-between">
           <text className="text-3xl font-bold ">My Orders</text>
           <text className="font-medium mt-2">
@@ -258,7 +228,7 @@ export default function TaskListPage() {
                   <view className="p-5">
                     <view className="flex-row justify-between">
                       <view className="mb-6">
-                        <text className="text-xs uppercase text-gray-500 font-bold mb-2">
+                        <text className=" uppercase text-gray-500 font-bold mb-2">
                           Customer
                         </text>
                         <view className="flex-row items-center bg-gray-50 p-3 rounded-xl border border-gray-200">
@@ -273,7 +243,7 @@ export default function TaskListPage() {
                         </view>
                       </view>
                       <view className="mb-6">
-                        <text className="text-xs uppercase text-gray-500 font-bold mb-2">
+                        <text className=" uppercase text-gray-500 font-bold mb-2">
                           Factory
                         </text>
                         <view className="flex-row items-center bg-gray-50 p-3 rounded-xl border border-gray-200">
@@ -291,7 +261,7 @@ export default function TaskListPage() {
 
                     <view className="flex-row justify-between mb-2">
                       <view className="mb-6">
-                        <text className="text-xs uppercase text-gray-500 font-bold mb-2">
+                        <text className=" uppercase text-gray-500 font-bold mb-2">
                           Progress
                         </text>
                         <view className="bg-gray-50 p-3 rounded-xl border border-gray-200">
@@ -320,7 +290,7 @@ export default function TaskListPage() {
                         </view>
                       </view>
                       <view className="">
-                        <text className="text-xs uppercase text-gray-500 font-bold mb-2">
+                        <text className=" uppercase text-gray-500 font-bold mb-2">
                           Total Items
                         </text>
                         <view className="bg-gray-50 p-3 rounded-xl border border-gray-200">
