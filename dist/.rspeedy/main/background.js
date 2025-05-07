@@ -20916,7 +20916,7 @@ __webpack_require__.r(__webpack_exports__);
   if (true) {
     (function() {
       var localsJsonString = undefined;
-      // 1746610171615
+      // 1746610323520
       var cssReload = __webpack_require__("(react:background)/./node_modules/@lynx-js/css-extract-webpack-plugin/runtime/hotModuleReplacement.cjs")(module.id, {}, "");
       // only invalidate when locals change
       if (
@@ -21031,7 +21031,7 @@ __webpack_require__.hu = (chunkId) => ('' + chunkId + '.' + __webpack_require__.
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("1ed8dc20cc430f70")
+__webpack_require__.h = () => ("5a69aba2ca316b07")
 })();
 // webpack/runtime/get_main_filename/update manifest
 (() => {
@@ -21496,7 +21496,7 @@ if (typeof globalThis !== "undefined") {
 // webpack/runtime/lynx css hot update
 (() => {
 
-__webpack_require__.cssHotUpdateList = [["main",".rspeedy/main/main.css.hot-update.json"]];
+__webpack_require__.cssHotUpdateList = [["main",".rspeedy/main/main.ef0711509275b38d.css.hot-update.json"]];
 
 })();
 // webpack/runtime/make_namespace_object
