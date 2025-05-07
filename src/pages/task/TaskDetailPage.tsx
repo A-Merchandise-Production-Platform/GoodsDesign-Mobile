@@ -4,9 +4,20 @@ import { useState, useEffect } from "@lynx-js/react";
 import { useParams, useNavigate } from "react-router";
 import { useAuthStore } from "../../stores/auth.store.js";
 import { GET_TASK_DETAIL_QUERY } from "../../graphql/queries/task.js";
+import { CHECK_QUALITY_MUTATION } from "../../graphql/queries/task.js";
 import { graphqlFetch } from "../../graphql/client.js";
 import type { Order } from "../../types/task.js";
 import { formatCurrency, formatDate, formatTime } from "../../utils/format.js";
+
+enum OrderStatus {
+  WaitingForCheckingQuality = "WAITING_FOR_CHECKING_QUALITY",
+  ReworkRequired = "REWORK_REQUIRED",
+}
+
+enum OrderDetailStatus {
+  Pending = "PENDING",
+  Completed = "COMPLETED",
+}
 
 export default function TaskDetailPage() {
   const { id } = useParams();
@@ -19,6 +30,14 @@ export default function TaskDetailPage() {
     "details"
   );
   const [selectedOrderDetailIndex, setSelectedOrderDetailIndex] = useState(0);
+
+  const [qualityCheckLoading, setQualityCheckLoading] = useState(false);
+  const [qualityCheckError, setQualityCheckError] = useState<string | null>(
+    null
+  );
+  const [qualityCheckSuccess, setQualityCheckSuccess] = useState(false);
+  const [passedQty, setPassedQty] = useState<number>(0);
+  const [note, setNote] = useState<string>("");
 
   useEffect(() => {
     const fetchOrderDetails = async () => {
@@ -72,6 +91,55 @@ export default function TaskDetailPage() {
       text: "text-yellow-600",
       border: "border-yellow-200",
     };
+  };
+
+  const handleQualityCheck = async (
+    checkQualityId: string,
+    passedQuantity: number
+  ) => {
+    if (!accessToken) {
+      setQualityCheckError("User not authenticated");
+      return;
+    }
+
+    setQualityCheckLoading(true);
+    setQualityCheckError(null);
+    setQualityCheckSuccess(false);
+
+    try {
+      const result = await graphqlFetch<{ doneCheckQuality: { id: string } }>(
+        CHECK_QUALITY_MUTATION,
+        accessToken,
+        {
+          input: {
+            checkQualityId,
+            passedQuantity,
+            failedQuantity: selectedOrderDetail
+              ? selectedOrderDetail.quantity - passedQuantity
+              : 0,
+            note,
+          },
+        }
+      );
+
+      if (result.doneCheckQuality?.id) {
+        setQualityCheckSuccess(true);
+
+        // Refresh order data
+        const updatedOrder = await graphqlFetch<{ order: Order }>(
+          GET_TASK_DETAIL_QUERY,
+          accessToken,
+          { orderId: id }
+        );
+        setOrder(updatedOrder.order);
+      }
+    } catch (err) {
+      setQualityCheckError(
+        err instanceof Error ? err.message : "An unknown error occurred"
+      );
+    } finally {
+      setQualityCheckLoading(false);
+    }
   };
 
   if (loading) {
@@ -141,14 +209,32 @@ export default function TaskDetailPage() {
       className="pt-4 pb-4 w-full h-full"
     >
       {/* Header with back button */}
-      <view className="bg-gradient-to-r from-blue-600 to-purple-600 px-5 py-6">
-        <view className="flex-row items-start">
-          <view
-            className="rounded-md bg-gray-200 flex items-center justify-center w-28 h-10"
-            bindtap={() => nav("/task", { replace: true })}
-          >
-            <text className="font-bold text-3xl mb-3">← </text>
-            <text className="font-bold text-xl -ml-1">Back</text>
+      <view className="px-5 py-6">
+        <view className="flex-row">
+          <view className="flex items-center justify-between">
+            <view
+              className="rounded-md bg-gray-200 flex items-center justify-center w-28 h-10"
+              bindtap={() => nav("/task", { replace: true })}
+            >
+              <text className="font-bold text-3xl mb-3">← </text>
+              <text className="font-medium text-lg -ml-1">Back</text>
+            </view>
+
+            <view className="flex-row items-center px-4">
+              <text className="font-medium">
+                Hi, {useAuthStore.getState().user?.name || "User"}
+              </text>
+              <view
+                className="rounded-md bg-gray-200 flex items-center justify-center w-28 h-10 mt-2"
+                bindtap={() => {
+                  useAuthStore.getState().logout();
+                  nav("/", { replace: true });
+                }}
+              >
+                <text className="font-medium">Logout</text>
+                <text className="-mt-3 text-4xl">↪</text>
+              </view>
+            </view>
           </view>
 
           <view className="mt-4">
@@ -768,7 +854,7 @@ export default function TaskDetailPage() {
             selectedOrderDetail.checkQualities.length > 0 ? (
               <view className="bg-white rounded-2xl border border-gray-200 p-5 mb-4">
                 <text className="text-lg font-bold text-gray-800 mb-4">
-                  Quality Check History
+                  Quality Checks
                 </text>
 
                 {selectedOrderDetail.checkQualities.map((check, index) => (
@@ -811,6 +897,77 @@ export default function TaskDetailPage() {
                         </text>
                       </view>
                     </view>
+
+                    {/* Conditional Quality Check Form */}
+                    {(order.status === OrderStatus.WaitingForCheckingQuality ||
+                      order.status === OrderStatus.ReworkRequired) &&
+                      check.status === OrderDetailStatus.Pending && (
+                        <view className="p-3 rounded-lg bg-white border border-gray-200 mb-3">
+                          <text className="text-lg font-semibold text-gray-700 mb-2">
+                            Complete Quality Check
+                          </text>
+
+                          <view className="flex items-center mb-3">
+                            <text className="text-gray-500 mr-2">
+                              Passed Quantity:
+                            </text>
+                            <input
+                              type="number"
+                              className="w-20 h-8 px-2 border border-slate-300 rounded-xl text-lg"
+                              placeholder="0"
+                              min="0"
+                              max={selectedOrderDetail.quantity}
+                              id={`passed-qty-${check.id}`}
+                              value={passedQty}
+                              bindinput={(event: any) =>
+                                setPassedQty(Number(event.detail.value) || 0)
+                              }
+                            />
+                          </view>
+
+                          <view className="flex items-center mb-3">
+                            <text className="text-gray-500 mr-2">Note:</text>
+                            <input
+                              type="text"
+                              className="flex-1 h-8 px-2 border border-slate-300 rounded-xl text-lg"
+                              placeholder="Add a note (optional)"
+                              value={note}
+                              bindinput={(event: any) =>
+                                setNote(event.detail.value || "")
+                              }
+                            />
+                          </view>
+
+                          <view
+                            className={`h-12 flex justify-center items-center rounded-xl ${
+                              qualityCheckLoading
+                                ? "bg-indigo-300"
+                                : "bg-indigo-400"
+                            } text-center`}
+                            bindtap={() => {
+                              handleQualityCheck(check.id, passedQty);
+                            }}
+                          >
+                            <text className="text-white text-lg font-medium">
+                              {qualityCheckLoading
+                                ? "Processing..."
+                                : "Complete Quality Check"}
+                            </text>
+                          </view>
+
+                          {qualityCheckError && (
+                            <text className="text-red-500 text-sm mt-2">
+                              {qualityCheckError}
+                            </text>
+                          )}
+
+                          {qualityCheckSuccess && (
+                            <text className="text-green-500 text-sm mt-2">
+                              Quality check completed successfully!
+                            </text>
+                          )}
+                        </view>
+                      )}
 
                     {check.task && (
                       <view className="p-3 rounded-lg bg-white border border-gray-200">

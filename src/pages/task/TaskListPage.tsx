@@ -114,15 +114,33 @@ export default function TaskListPage() {
   return (
     <view className="pt-4 pb-4">
       {/* Header */}
-      <view className="bg-gradient-to-r from-blue-600 to-purple-600 px-5 py-6">
-        <view className="justify-between">
-          <text className="text-3xl font-bold ">My Orders</text>
-          <text className="font-medium mt-2">
-            {filteredOrders.length}{" "}
-            {filteredOrders.length === 1 || filteredOrders.length === 0
-              ? "task"
-              : "tasks"}
+      <view className="flex items-center justify-between py-6">
+        <view className="bg-gradient-to-r from-blue-600 to-purple-600 px-5">
+          <view className="justify-between">
+            <text className="text-3xl font-bold ">My Orders</text>
+            <text className="font-medium mt-2">
+              {filteredOrders.length}{" "}
+              {filteredOrders.length === 1 || filteredOrders.length === 0
+                ? "task"
+                : "tasks"}
+            </text>
+          </view>
+        </view>
+
+        <view className="flex-row items-center px-4">
+          <text className="font-medium">
+            Hi, {useAuthStore.getState().user?.name || "User"}
           </text>
+          <view
+            className="rounded-md bg-gray-200 flex items-center justify-center w-28 h-10 mt-2"
+            bindtap={() => {
+              useAuthStore.getState().logout();
+              nav("/", { replace: true });
+            }}
+          >
+            <text className="font-medium">Logout</text>
+            <text className="-mt-3 text-4xl">↪</text>
+          </view>
         </view>
       </view>
 

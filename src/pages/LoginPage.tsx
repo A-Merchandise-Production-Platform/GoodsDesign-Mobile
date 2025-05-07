@@ -1,4 +1,4 @@
-import { useState } from "@lynx-js/react";
+import { useState, useEffect } from "@lynx-js/react";
 import { useNavigate } from "react-router";
 import { PictureEnum, pictureMap } from "../components/images.jsx";
 import { useAuthStore } from "../stores/auth.store.js";
@@ -12,6 +12,13 @@ export default function LoginPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [notification, setNotification] = useState("");
   const login = useAuthStore((state) => state.login);
+  const accessToken = useAuthStore((state) => state.accessToken);
+
+  useEffect(() => {
+    if (accessToken) {
+      nav("/task", { replace: true });
+    }
+  }, [accessToken, nav]);
 
   const handleLogin = async () => {
     if (!email || !password) {
@@ -132,7 +139,7 @@ export default function LoginPage() {
             handleLogin();
           }}
           className={`h-14 flex justify-center items-center rounded-xl transition-all duration-200 ${
-            isLoading ? "bg-indigo-400" : "bg-indigo-600 hover:bg-indigo-700"
+            isLoading ? "bg-indigo-400" : "bg-indigo-500"
           } ${!email || !password ? "opacity-60" : "opacity-100"}`}
         >
           <text className="text-white text-lg font-semibold">
