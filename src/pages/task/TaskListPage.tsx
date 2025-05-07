@@ -46,11 +46,7 @@ export default function TaskListPage() {
   const filteredOrders = orders.filter((order) => {
     if (selectedTab === "all") return true;
     if (selectedTab === "quality_check") {
-      return order.tasks.some(
-        (task) =>
-          task.taskname.toLowerCase().includes("quality") ||
-          task.description.toLowerCase().includes("quality")
-      );
+      return order.status.includes("WAITING_FOR_CHECKING_QUALITY");
     }
     return true;
   });
@@ -228,7 +224,7 @@ export default function TaskListPage() {
                   <view className="p-5">
                     <view className="flex-row justify-between">
                       <view className="mb-6">
-                        <text className=" uppercase text-gray-500 font-bold mb-2">
+                        <text className="uppercase text-gray-500 font-bold mb-2">
                           Customer
                         </text>
                         <view className="flex-row items-center bg-gray-50 p-3 rounded-xl border border-gray-200">

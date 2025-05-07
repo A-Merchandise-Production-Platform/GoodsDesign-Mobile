@@ -204,13 +204,13 @@ export default function TaskDetailPage() {
           </view>
 
           <view className="flex-row justify-between">
-            <view className="items-center">
+            <view className="items-center mb-2">
               <text className="text-sm text-gray-500">Total Items</text>
               <text className="text-lg font-bold text-gray-800">
                 {order.totalItems}
               </text>
             </view>
-            <view className="items-center">
+            <view className="items-center mb-2">
               <text className="text-sm text-gray-500">Total Price</text>
               <text className="text-lg font-bold text-gray-800">
                 {formatCurrency(order.totalPrice)}
@@ -229,50 +229,42 @@ export default function TaskDetailPage() {
       <view className="px-4 mt-4">
         <view className="bg-white rounded-2xl border border-gray-200 p-5">
           <view className="flex-row justify-between mb-6">
-            <view className="flex-1 mr-2">
-              <text className=" uppercase text-gray-500 font-bold mb-2">
+            <view className="mb-6">
+              <text className="uppercase text-gray-500 font-bold mb-2">
                 Customer
               </text>
-              <view className="bg-gray-50 p-3 rounded-xl border border-gray-200">
-                <view className="flex-row items-center">
-                  <view className="w-10 h-10 rounded-full bg-blue-100 items-center justify-center">
-                    <text className="text-blue-600 font-bold text-lg">
-                      {order.customer?.name?.charAt(0) || "C"}
-                    </text>
-                  </view>
-                  <view>
-                    <text className="text-gray-800 font-semibold">
-                      {order.customer?.name}
-                    </text>
-                    <text className="text-gray-500 text-sm">
-                      {order.customer?.email}
-                    </text>
-                  </view>
+              <view className="flex-row items-center bg-gray-50 p-3 rounded-xl border border-gray-200">
+                <view className="w-10 h-10 rounded-full bg-blue-100 items-center justify-center">
+                  <text className="text-blue-600 font-bold text-lg">
+                    {order?.customer?.name?.charAt(0) || "C"}
+                  </text>
                 </view>
+                <text className="text-gray-800 font-semibold mt-1">
+                  {order?.customer.name}
+                </text>
+                <text className="text-gray-500 text-sm">
+                  {order.customer?.email}
+                </text>
               </view>
             </view>
-            <view className="flex-1 ml-2">
+            <view className="">
               <text className=" uppercase text-gray-500 font-bold mb-2">
                 Factory
               </text>
-              <view className="bg-gray-50 p-3 rounded-xl border border-gray-200">
-                <view className="flex-row items-center">
-                  <view className="w-10 h-10 rounded-full bg-purple-100 items-center justify-center">
-                    <text className="text-purple-600 font-bold text-lg">
-                      {order.factory?.name?.charAt(0) || "F"}
-                    </text>
-                  </view>
-                  <view>
-                    <text className="text-gray-800 font-semibold">
-                      {order.factory?.name || "Not assigned"}
-                    </text>
-                    {order.factory?.owner && (
-                      <text className="text-gray-500 text-sm">
-                        {order.factory.owner.name}
-                      </text>
-                    )}
-                  </view>
+              <view className="flex-row items-center bg-gray-50 p-3 rounded-xl border border-gray-200">
+                <view className="w-10 h-10 rounded-full bg-purple-100 items-center justify-center">
+                  <text className="text-purple-600 font-bold text-lg">
+                    {order.factory?.name?.charAt(0) || "F"}
+                  </text>
                 </view>
+                <text className="text-gray-800 font-semibold">
+                  {order.factory?.name || "Not assigned"}
+                </text>
+                {order.factory?.owner && (
+                  <text className="text-gray-500 text-sm">
+                    {order.factory.owner.name}
+                  </text>
+                )}
               </view>
             </view>
           </view>
@@ -304,7 +296,7 @@ export default function TaskDetailPage() {
       {/* Tabs */}
       <view className="flex-row bg-white border-b border-gray-200 mt-6">
         <view
-          className={`py-4 px-5 flex-1 items-center justify-center ${
+          className={`py-4 px-5 items-center justify-center ${
             activeTab === "details"
               ? "border-b-3 border-blue-500 bg-blue-50"
               : ""
@@ -320,7 +312,7 @@ export default function TaskDetailPage() {
           </text>
         </view>
         <view
-          className={`py-4 px-5 flex-1 items-center justify-center ${
+          className={`py-4 px-5 items-center justify-center ${
             activeTab === "quality"
               ? "border-b-3 border-blue-500 bg-blue-50"
               : ""
@@ -336,7 +328,7 @@ export default function TaskDetailPage() {
           </text>
         </view>
         <view
-          className={`py-4 px-5 flex-1 items-center justify-center ${
+          className={`py-4 px-5 items-center justify-center ${
             activeTab === "tasks" ? "border-b-3 border-blue-500 bg-blue-50" : ""
           }`}
           bindtap={() => setActiveTab("tasks")}
@@ -467,7 +459,8 @@ export default function TaskDetailPage() {
             {/* Products */}
             <view className="bg-white rounded-2xl border border-gray-200 p-5 mb-4">
               <text className="text-lg font-bold text-gray-800 mb-4">
-                Products ({order.orderDetails?.length || 0})
+                {order.orderDetails?.length > 1 ? "Products" : "Product"}(
+                {order.orderDetails?.length || 0})
               </text>
 
               {order.orderDetails?.map((detail, index) => (
@@ -501,8 +494,7 @@ export default function TaskDetailPage() {
                             className="w-3 h-3 rounded-full mr-1"
                             style={{
                               backgroundColor:
-                                selectedOrderDetail.systemConfigVariant
-                                  ?.color || "#ccc",
+                                detail.systemConfigVariant?.color || "#ccc",
                             }}
                           />
                         </text>
@@ -586,7 +578,7 @@ export default function TaskDetailPage() {
                         {payment.type}
                       </text>
                       <view
-                        className={`px-3 py-1 rounded-full ${
+                        className={`mt-1 px-3 py-1 rounded-full ${
                           payment.status === "COMPLETED"
                             ? "bg-green-100 text-green-600"
                             : "bg-yellow-100 text-yellow-600"
@@ -596,9 +588,9 @@ export default function TaskDetailPage() {
                       </view>
                     </view>
 
-                    <view className="flex-row justify-between mb-2">
+                    <view className="flex mb-2">
                       <text className="text-gray-500">Amount:</text>
-                      <text className="font-bold text-gray-800">
+                      <text className="ml-1 font-bold text-gray-800">
                         {formatCurrency(payment.amount)}
                       </text>
                     </view>
@@ -615,7 +607,7 @@ export default function TaskDetailPage() {
                               key={transaction.id}
                               className="p-3 rounded-lg bg-white border border-gray-200 mb-2"
                             >
-                              <view className="flex-row justify-between mb-1">
+                              <view className="flex justify-between mb-1">
                                 <text className="text-sm text-gray-500">
                                   {transaction.paymentMethod}
                                 </text>
@@ -623,7 +615,7 @@ export default function TaskDetailPage() {
                                   {formatCurrency(transaction.amount)}
                                 </text>
                               </view>
-                              <view className="flex-row justify-between">
+                              <view className="flex justify-between">
                                 <text className=" text-gray-500">
                                   {formatDate(transaction.createdAt)}
                                 </text>
@@ -647,6 +639,19 @@ export default function TaskDetailPage() {
                 ))}
               </view>
             )}
+
+            {/* File Upload Section */}
+            {/* <view className="bg-white rounded-2xl border border-gray-200 p-5 mb-4">
+              <text className="text-lg font-bold text-gray-800 mb-4">
+                Upload Files
+              </text>
+
+              <view className="flex-row items-center mb-4">
+                <view className="bg-gray-100 text-gray-500 px-4 py-2 rounded-lg">
+                  <text className="text-gray-500">File upload coming soon</text>
+                </view>
+              </view>
+            </view> */}
           </view>
         )}
 
@@ -667,7 +672,7 @@ export default function TaskDetailPage() {
                 }}
                 className="mb-4"
               >
-                <view className="flex-row">
+                <view className="flex">
                   {order.orderDetails?.map((detail, index) => (
                     <view
                       key={detail.id}
@@ -776,7 +781,7 @@ export default function TaskDetailPage() {
             selectedOrderDetail.checkQualities.length > 0 ? (
               <view className="bg-white rounded-2xl border border-gray-200 p-5 mb-4">
                 <text className="text-lg font-bold text-gray-800 mb-4">
-                  Quality Checks
+                  Quality Check History
                 </text>
 
                 {selectedOrderDetail.checkQualities.map((check, index) => (
@@ -938,19 +943,19 @@ export default function TaskDetailPage() {
                     </text>
 
                     <view className="flex-row mb-3">
-                      <view className="flex-1 mr-2">
+                      <view className="mr-2">
                         <text className=" text-gray-500">Type</text>
                         <text className="font-medium text-gray-800">
                           {task.taskType}
                         </text>
                       </view>
-                      <view className="flex-1 mr-2">
+                      <view className="mr-2">
                         <text className=" text-gray-500">Start Date</text>
                         <text className="font-medium text-gray-800">
                           {formatDate(task.startDate)}
                         </text>
                       </view>
-                      <view className="flex-1">
+                      <view className="">
                         <text className=" text-gray-500">Deadline</text>
                         <text className="font-medium text-gray-800">
                           {formatDate(task.expiredTime)}
