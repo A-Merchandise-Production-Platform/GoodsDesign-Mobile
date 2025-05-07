@@ -94,7 +94,7 @@ export default function LoginPage() {
     <view className="flex items-center justify-center px-6 py-16 bg-white h-screen">
       <view className="w-full max-w-lg shadow rounded-3xl p-6 -mt-24 bg-white">
         {/* Header */}
-        <view className="flex items-center mb-10">
+        <view className="flex-row items-center mb-10">
           <image
             className="w-20 h-20 mb-4"
             src={pictureMap[PictureEnum.Logo].src}
