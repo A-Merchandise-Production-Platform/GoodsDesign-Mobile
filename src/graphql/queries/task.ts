@@ -399,3 +399,9 @@ export const GET_TASK_DETAIL_QUERY = `query GetOrder($orderId: String!) {
     updatedAt
   }
 }`;
+
+export const CHECK_QUALITY_MUTATION = `mutation DoneCheckQuality($input: DoneCheckQualityInput!) {
+  doneCheckQuality(input: $input) {
+    id
+  }
+}`;

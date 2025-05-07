@@ -639,19 +639,6 @@ export default function TaskDetailPage() {
                 ))}
               </view>
             )}
-
-            {/* File Upload Section */}
-            {/* <view className="bg-white rounded-2xl border border-gray-200 p-5 mb-4">
-              <text className="text-lg font-bold text-gray-800 mb-4">
-                Upload Files
-              </text>
-
-              <view className="flex-row items-center mb-4">
-                <view className="bg-gray-100 text-gray-500 px-4 py-2 rounded-lg">
-                  <text className="text-gray-500">File upload coming soon</text>
-                </view>
-              </view>
-            </view> */}
           </view>
         )}
 
