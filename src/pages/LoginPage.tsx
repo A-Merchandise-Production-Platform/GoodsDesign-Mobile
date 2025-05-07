@@ -91,10 +91,10 @@ export default function LoginPage() {
   };
 
   return (
-    <view className="flex flex-1 justify-center items-center px-6 py-16 bg-white h-screen">
-      <view className="w-full max-w-lg shadow-lg rounded-3xl p-6 -mt-24 bg-white">
+    <view className="flex items-center justify-center px-6 py-16 bg-white h-screen">
+      <view className="w-full max-w-lg shadow rounded-3xl p-6 -mt-24 bg-white">
         {/* Header */}
-        <view className="flex flex-col items-center mb-10">
+        <view className="flex items-center mb-10">
           <image
             className="w-20 h-20 mb-4"
             src={pictureMap[PictureEnum.Logo].src}
@@ -115,7 +115,7 @@ export default function LoginPage() {
             placeholder="Enter your email"
             value={email}
             bindinput={handleEmailChange}
-            className="w-full h-14 px-5 border border-slate-300 rounded-xl text-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="w-full h-14 px-5 border border-slate-300 rounded-xl text-lg bg-white"
           />
         </view>
 
@@ -129,16 +129,14 @@ export default function LoginPage() {
             placeholder="Enter your password"
             value={password}
             bindinput={handlePasswordChange}
-            className="w-full h-14 px-5 border border-slate-300 rounded-xl text-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="w-full h-14 px-5 border border-slate-300 rounded-xl text-lg bg-white"
           />
         </view>
 
         {/* Login Button */}
         <view
-          bindtap={() => {
-            handleLogin();
-          }}
-          className={`h-14 flex justify-center items-center rounded-xl transition-all duration-200 ${
+          bindtap={handleLogin}
+          className={`h-14 flex items-center justify-center rounded-xl ${
             isLoading ? "bg-indigo-400" : "bg-indigo-500"
           } ${!email || !password ? "opacity-60" : "opacity-100"}`}
         >

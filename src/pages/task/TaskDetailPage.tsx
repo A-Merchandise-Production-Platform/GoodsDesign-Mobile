@@ -929,7 +929,7 @@ export default function TaskDetailPage() {
                             <text className="text-gray-500 mr-2">Note:</text>
                             <input
                               type="text"
-                              className="flex-1 h-8 px-2 border border-slate-300 rounded-xl text-lg"
+                              className="h-8 px-2 border border-slate-300 rounded-xl text-lg"
                               placeholder="Add a note (optional)"
                               value={note}
                               bindinput={(event: any) =>

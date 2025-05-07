@@ -115,7 +115,7 @@ export default function TaskListPage() {
     <view className="pt-4 pb-4">
       {/* Header */}
       <view className="flex items-center justify-between py-6">
-        <view className="bg-gradient-to-r from-blue-600 to-purple-600 px-5">
+        <view className="px-5">
           <view className="justify-between">
             <text className="text-3xl font-bold ">My Orders</text>
             <text className="font-medium mt-2">
