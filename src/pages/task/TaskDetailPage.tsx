@@ -26,9 +26,7 @@ export default function TaskDetailPage() {
   const [order, setOrder] = useState<Order | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState<"details" | "quality" | "tasks">(
-    "details"
-  );
+  const [activeTab, setActiveTab] = useState<"details" | "quality">("details");
   const [selectedOrderDetailIndex, setSelectedOrderDetailIndex] = useState(0);
 
   const [qualityCheckLoading, setQualityCheckLoading] = useState(false);
@@ -413,20 +411,6 @@ export default function TaskDetailPage() {
             Quality
           </text>
         </view>
-        <view
-          className={`py-4 px-5 items-center justify-center ${
-            activeTab === "tasks" ? "border-b-3 border-blue-500 bg-blue-50" : ""
-          }`}
-          bindtap={() => setActiveTab("tasks")}
-        >
-          <text
-            className={`font-semibold ${
-              activeTab === "tasks" ? "text-blue-600" : "text-gray-600"
-            }`}
-          >
-            Tasks
-          </text>
-        </view>
       </view>
       {/* Tab Content */}
       <view className="px-4 mt-4">
@@ -731,6 +715,32 @@ export default function TaskDetailPage() {
         {/* Quality Tab */}
         {activeTab === "quality" && (
           <view>
+            {/* Evaluation Criteria Section */}
+            {order.orderEvaluationCriteria &&
+              order.orderEvaluationCriteria.length > 0 && (
+                <view className="mb-6">
+                  <text className="text-md font-medium mb-3">
+                    Evaluation Criteria ({order.orderEvaluationCriteria.length}
+                    ):
+                  </text>
+                  <view className="space-y-3">
+                    {order.orderEvaluationCriteria.map((criteria, index) => (
+                      <view
+                        key={criteria.evaluationCriteria.id}
+                        className="bg-gray-50 p-4 rounded-lg border border-gray-200"
+                      >
+                        <text className="font-medium text-gray-800">
+                          {criteria.evaluationCriteria.name}
+                        </text>
+                        <text className="text-gray-600 mt-1 block">
+                          {criteria.evaluationCriteria.description}
+                        </text>
+                      </view>
+                    ))}
+                  </view>
+                </view>
+              )}
+
             {/* Product Selection */}
             <view className="bg-white rounded-2xl border border-gray-200 p-5 mb-4">
               <text className="text-lg font-bold text-gray-800 mb-4">
@@ -929,7 +939,7 @@ export default function TaskDetailPage() {
                             <text className="text-gray-500 mr-2">Note:</text>
                             <input
                               type="text"
-                              className="h-8 px-2 border border-slate-300 rounded-xl text-lg"
+                              className="flex-1 h-8 px-2 border border-slate-300 rounded-xl text-lg"
                               placeholder="Add a note (optional)"
                               value={note}
                               bindinput={(event: any) =>
@@ -1043,105 +1053,6 @@ export default function TaskDetailPage() {
                 </text>
                 <text className="text-gray-500 text-center">
                   This product doesn't have any quality checks yet.
-                </text>
-              </view>
-            )}
-          </view>
-        )}
-
-        {/* Tasks Tab */}
-        {activeTab === "tasks" && (
-          <view>
-            {order.tasks && order.tasks.length > 0 ? (
-              <view className="bg-white rounded-2xl border border-gray-200 p-5 mb-4">
-                <text className="text-lg font-bold text-gray-800 mb-4">
-                  Tasks ({order.tasks.length})
-                </text>
-
-                {order.tasks.map((task, index) => (
-                  <view
-                    key={task.id}
-                    className="p-4 rounded-xl bg-gray-50 border border-gray-200 mb-3"
-                  >
-                    <view className="flex-row justify-between items-center mb-2">
-                      <text className="font-semibold text-gray-800">
-                        {task.taskname}
-                      </text>
-                      <view
-                        className={`px-3 py-1 rounded-full ${
-                          getStatusColor(task.status, false).bg
-                        } ${getStatusColor(task.status, false).border}`}
-                      >
-                        <text
-                          className={` font-bold ${
-                            getStatusColor(task.status, false).text
-                          }`}
-                        >
-                          {task.status}
-                        </text>
-                      </view>
-                    </view>
-
-                    <text className="text-sm text-gray-700 mb-3">
-                      {task.description}
-                    </text>
-
-                    <view className="flex-row mb-3">
-                      <view className="mr-2">
-                        <text className=" text-gray-500">Type</text>
-                        <text className="font-medium text-gray-800">
-                          {task.taskType}
-                        </text>
-                      </view>
-                      <view className="mr-2">
-                        <text className=" text-gray-500">Start Date</text>
-                        <text className="font-medium text-gray-800">
-                          {formatDate(task.startDate)}
-                        </text>
-                      </view>
-                      <view className="">
-                        <text className=" text-gray-500">Deadline</text>
-                        <text className="font-medium text-gray-800">
-                          {formatDate(task.expiredTime)}
-                        </text>
-                      </view>
-                    </view>
-
-                    <view className="flex-row items-center">
-                      <text className=" text-gray-500 mr-2">Assignee:</text>
-                      <view className="flex-row items-center">
-                        <view className="w-6 h-6 rounded-full bg-blue-100 items-center justify-center mr-2">
-                          <text className="text-blue-600 font-bold ">
-                            {task.assignee?.name?.charAt(0) || "U"}
-                          </text>
-                        </view>
-                        <text className="text-sm font-medium text-gray-800">
-                          {task.assignee?.name || "Unassigned"}
-                        </text>
-                      </view>
-                    </view>
-
-                    {task.note && (
-                      <view className="mt-3 bg-white p-3 rounded-lg border border-gray-200">
-                        <text className=" text-gray-500">Note:</text>
-                        <text className="text-sm text-gray-700">
-                          {task.note}
-                        </text>
-                      </view>
-                    )}
-                  </view>
-                ))}
-              </view>
-            ) : (
-              <view className="bg-white rounded-2xl border border-gray-200 p-5 mb-4 items-center">
-                <view className="w-28 h-28 bg-gray-200 rounded-full items-center justify-center mb-3">
-                  <text className="text-2xl">📋</text>
-                </view>
-                <text className="text-lg font-semibold text-gray-800 text-center mb-2">
-                  No Tasks Found
-                </text>
-                <text className="text-gray-500 text-center">
-                  This order doesn't have any tasks assigned yet.
                 </text>
               </view>
             )}

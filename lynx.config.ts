@@ -4,7 +4,7 @@ import { pluginReactLynx } from '@lynx-js/react-rsbuild-plugin'
 
 export default defineConfig({
   server: {
-    host: "192.168.100.126",
+    host: "192.168.1.74",
     port: 3001,
   },
   plugins: [

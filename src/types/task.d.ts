@@ -103,6 +103,15 @@ export type Order = {
   totalItems: number;
   totalPrice: number;
   totalProductionCost: number;
+  orderEvaluationCriteria?: {
+    createdAt: string;
+    evaluationCriteria: {
+      id: string;
+      description: string;
+      name: string;
+      updatedAt: string;
+    };
+  }[];
   address?: {
     districtID: string;
     factoryId: string;

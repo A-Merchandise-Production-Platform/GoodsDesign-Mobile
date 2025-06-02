@@ -199,6 +199,16 @@ export const GET_TASK_DETAIL_QUERY = `query GetOrder($orderId: String!) {
   order(id: $orderId) {
     acceptanceDeadline
     acceptedAt
+    orderEvaluationCriteria {
+      createdAt
+      evaluationCriteria {
+        id
+        description
+        name
+        updatedAt
+      }
+    }
+    orderCode
     address {
       districtID
       factoryId
@@ -254,9 +264,9 @@ export const GET_TASK_DETAIL_QUERY = `query GetOrder($orderId: String!) {
         size
         model
         product {
-            name
-            imageUrl
-          }
+          name
+          imageUrl
+        }
       }
       checkQualities {
         id

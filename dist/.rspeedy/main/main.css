@@ -159,6 +159,9 @@
 .max-w-lg {
     max-width: 32rem;
 }
+.flex-1 {
+    flex: 1 1 0%;
+}
 .flex-row {
     flex-direction: row;
 }
@@ -498,6 +501,9 @@
 }
 .relative {
     position: relative;
+}
+.block {
+    display: block;
 }
 .flex {
     display: flex;
