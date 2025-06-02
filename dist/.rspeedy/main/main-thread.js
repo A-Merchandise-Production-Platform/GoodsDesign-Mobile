@@ -14119,7 +14119,7 @@ var OrderDetailStatus = /*#__PURE__*/ function(OrderDetailStatus) {
     OrderDetailStatus["Completed"] = "COMPLETED";
     return OrderDetailStatus;
 }(OrderDetailStatus || {});
-const __snapshot_62654_5d1b6_1 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_1", function() {
+const __snapshot_62654_eec77_1 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_1", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "items-center justify-center bg-gray-50");
@@ -14146,7 +14146,7 @@ const __snapshot_62654_5d1b6_1 = /*#__PURE__*/ (__webpack_require__("(react:main
         el5
     ];
 }, null, null, undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_2 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_2", function() {
+const __snapshot_62654_eec77_2 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_2", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "items-center justify-center bg-gray-50 p-4");
@@ -14185,7 +14185,7 @@ const __snapshot_62654_5d1b6_2 = /*#__PURE__*/ (__webpack_require__("(react:main
         4
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_3 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_3", function() {
+const __snapshot_62654_eec77_3 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_3", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "items-center justify-center bg-gray-50 p-4");
@@ -14224,7 +14224,7 @@ const __snapshot_62654_5d1b6_3 = /*#__PURE__*/ (__webpack_require__("(react:main
 }, [
     (snapshot, index, oldValue)=>(__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .updateEvent */.updateEvent)(snapshot, index, oldValue, 6, "bindEvent", "tap", '')
 ], null, undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_5 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_5", function() {
+const __snapshot_62654_eec77_5 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_5", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     return [
@@ -14235,7 +14235,7 @@ const __snapshot_62654_5d1b6_5 = /*#__PURE__*/ (__webpack_require__("(react:main
         if (ctx.__elements) __SetClasses(ctx.__elements[0], ctx.__values[0] || '');
     }
 ], (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_6 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_6", function() {
+const __snapshot_62654_eec77_6 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_6", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-sm text-gray-500");
@@ -14254,7 +14254,7 @@ const __snapshot_62654_5d1b6_6 = /*#__PURE__*/ (__webpack_require__("(react:main
         2
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_7 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_7", function() {
+const __snapshot_62654_eec77_7 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_7", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-lg font-bold text-gray-800");
@@ -14262,7 +14262,7 @@ const __snapshot_62654_5d1b6_7 = /*#__PURE__*/ (__webpack_require__("(react:main
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_8 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_8", function() {
+const __snapshot_62654_eec77_8 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_8", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-lg font-bold text-gray-800");
@@ -14270,7 +14270,7 @@ const __snapshot_62654_5d1b6_8 = /*#__PURE__*/ (__webpack_require__("(react:main
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_9 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_9", function() {
+const __snapshot_62654_eec77_9 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_9", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-lg font-bold text-gray-800");
@@ -14278,7 +14278,7 @@ const __snapshot_62654_5d1b6_9 = /*#__PURE__*/ (__webpack_require__("(react:main
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_10 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_10", function() {
+const __snapshot_62654_eec77_10 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_10", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-blue-600 font-bold text-lg");
@@ -14286,7 +14286,7 @@ const __snapshot_62654_5d1b6_10 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_11 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_11", function() {
+const __snapshot_62654_eec77_11 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_11", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-gray-800 font-semibold mt-1");
@@ -14294,7 +14294,7 @@ const __snapshot_62654_5d1b6_11 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_12 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_12", function() {
+const __snapshot_62654_eec77_12 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_12", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-gray-500 text-sm");
@@ -14302,7 +14302,7 @@ const __snapshot_62654_5d1b6_12 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_13 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_13", function() {
+const __snapshot_62654_eec77_13 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_13", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-purple-600 font-bold text-lg");
@@ -14310,7 +14310,7 @@ const __snapshot_62654_5d1b6_13 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_14 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_14", function() {
+const __snapshot_62654_eec77_14 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_14", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-gray-800 font-semibold");
@@ -14318,7 +14318,7 @@ const __snapshot_62654_5d1b6_14 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_15 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_15", function() {
+const __snapshot_62654_eec77_15 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_15", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-gray-500 text-sm");
@@ -14326,7 +14326,7 @@ const __snapshot_62654_5d1b6_15 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_16 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_16", function() {
+const __snapshot_62654_eec77_16 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_16", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-sm text-gray-600");
@@ -14334,7 +14334,7 @@ const __snapshot_62654_5d1b6_16 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_17 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_17", function() {
+const __snapshot_62654_eec77_17 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_17", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-sm text-gray-600");
@@ -14342,7 +14342,7 @@ const __snapshot_62654_5d1b6_17 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_20 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_20", function() {
+const __snapshot_62654_eec77_20 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_20", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "border-l-2 border-blue-500 pl-4 pb-6 relative");
@@ -14383,7 +14383,7 @@ const __snapshot_62654_5d1b6_20 = /*#__PURE__*/ (__webpack_require__("(react:mai
         7
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_21 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_21", function() {
+const __snapshot_62654_eec77_21 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_21", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "border-l-2 border-blue-500 pl-4 pb-6 relative");
@@ -14424,7 +14424,7 @@ const __snapshot_62654_5d1b6_21 = /*#__PURE__*/ (__webpack_require__("(react:mai
         7
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_22 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_22", function() {
+const __snapshot_62654_eec77_22 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_22", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "border-l-2 border-blue-500 pl-4 pb-6 relative");
@@ -14465,7 +14465,7 @@ const __snapshot_62654_5d1b6_22 = /*#__PURE__*/ (__webpack_require__("(react:mai
         7
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_23 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_23", function() {
+const __snapshot_62654_eec77_23 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_23", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "border-l-2 border-blue-500 pl-4 pb-6 relative");
@@ -14506,7 +14506,7 @@ const __snapshot_62654_5d1b6_23 = /*#__PURE__*/ (__webpack_require__("(react:mai
         7
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_24 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_24", function() {
+const __snapshot_62654_eec77_24 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_24", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "border-l-2 border-blue-500 pl-4 pb-6 relative");
@@ -14547,7 +14547,7 @@ const __snapshot_62654_5d1b6_24 = /*#__PURE__*/ (__webpack_require__("(react:mai
         7
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_25 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_25", function() {
+const __snapshot_62654_eec77_25 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_25", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "border-l-2 border-blue-500 pl-4 relative");
@@ -14588,7 +14588,7 @@ const __snapshot_62654_5d1b6_25 = /*#__PURE__*/ (__webpack_require__("(react:mai
         7
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_27 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_27", function() {
+const __snapshot_62654_eec77_27 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_27", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-sm text-gray-400");
@@ -14607,7 +14607,7 @@ const __snapshot_62654_5d1b6_27 = /*#__PURE__*/ (__webpack_require__("(react:mai
         2
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_26 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_26", function() {
+const __snapshot_62654_eec77_26 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_26", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "border-l-2 border-gray-300 pl-4 relative");
@@ -14634,7 +14634,7 @@ const __snapshot_62654_5d1b6_26 = /*#__PURE__*/ (__webpack_require__("(react:mai
         4
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_30 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_30", function() {
+const __snapshot_62654_eec77_30 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_30", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateImage(pageId);
     __SetClasses(el, "w-28 h-28 rounded-md");
@@ -14646,7 +14646,7 @@ const __snapshot_62654_5d1b6_30 = /*#__PURE__*/ (__webpack_require__("(react:mai
         if (ctx.__elements) __SetAttribute(ctx.__elements[0], "src", ctx.__values[0]);
     }
 ], null, undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_29 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_29", function() {
+const __snapshot_62654_eec77_29 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_29", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "w-28 h-28 rounded-md");
@@ -14654,7 +14654,7 @@ const __snapshot_62654_5d1b6_29 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_31 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_31", function() {
+const __snapshot_62654_eec77_31 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_31", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-sm text-gray-500");
@@ -14662,7 +14662,7 @@ const __snapshot_62654_5d1b6_31 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_28 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_28", function() {
+const __snapshot_62654_eec77_28 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_28", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     const el1 = __CreateView(pageId);
@@ -14751,7 +14751,7 @@ const __snapshot_62654_5d1b6_28 = /*#__PURE__*/ (__webpack_require__("(react:mai
         14
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_34 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_34", function() {
+const __snapshot_62654_eec77_34 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_34", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-sm text-gray-500");
@@ -14759,7 +14759,7 @@ const __snapshot_62654_5d1b6_34 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_35 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_35", function() {
+const __snapshot_62654_eec77_35 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_35", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-gray-700 mb-3");
@@ -14767,7 +14767,7 @@ const __snapshot_62654_5d1b6_35 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_37 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_37", function() {
+const __snapshot_62654_eec77_37 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_37", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "w-20 h-20 mr-2 mb-2");
@@ -14783,7 +14783,7 @@ const __snapshot_62654_5d1b6_37 = /*#__PURE__*/ (__webpack_require__("(react:mai
         if (ctx.__elements) __SetAttribute(ctx.__elements[1], "src", ctx.__values[0]);
     }
 ], null, undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_36 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_36", function() {
+const __snapshot_62654_eec77_36 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_36", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "flex-row flex-wrap");
@@ -14791,7 +14791,7 @@ const __snapshot_62654_5d1b6_36 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_33 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_33", function() {
+const __snapshot_62654_eec77_33 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_33", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "p-4 rounded-xl bg-gray-50 border border-gray-200 mb-3");
@@ -14832,7 +14832,7 @@ const __snapshot_62654_5d1b6_33 = /*#__PURE__*/ (__webpack_require__("(react:mai
         6
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_32 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_32", function() {
+const __snapshot_62654_eec77_32 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_32", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "bg-white rounded-2xl border border-gray-200 p-5 mb-4");
@@ -14855,7 +14855,7 @@ const __snapshot_62654_5d1b6_32 = /*#__PURE__*/ (__webpack_require__("(react:mai
         3
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_40 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_40", function() {
+const __snapshot_62654_eec77_40 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_40", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "font-semibold text-gray-800");
@@ -14863,7 +14863,7 @@ const __snapshot_62654_5d1b6_40 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_41 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_41", function() {
+const __snapshot_62654_eec77_41 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_41", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, " font-bold");
@@ -14871,7 +14871,7 @@ const __snapshot_62654_5d1b6_41 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_42 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_42", function() {
+const __snapshot_62654_eec77_42 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_42", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "ml-1 font-bold text-gray-800");
@@ -14879,7 +14879,7 @@ const __snapshot_62654_5d1b6_42 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_45 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_45", function() {
+const __snapshot_62654_eec77_45 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_45", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-sm text-gray-500");
@@ -14887,7 +14887,7 @@ const __snapshot_62654_5d1b6_45 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_46 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_46", function() {
+const __snapshot_62654_eec77_46 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_46", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-sm font-semibold text-gray-800");
@@ -14895,7 +14895,7 @@ const __snapshot_62654_5d1b6_46 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_47 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_47", function() {
+const __snapshot_62654_eec77_47 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_47", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, " text-gray-500");
@@ -14903,7 +14903,7 @@ const __snapshot_62654_5d1b6_47 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_48 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_48", function() {
+const __snapshot_62654_eec77_48 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_48", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, " font-bold");
@@ -14911,7 +14911,7 @@ const __snapshot_62654_5d1b6_48 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_44 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_44", function() {
+const __snapshot_62654_eec77_44 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_44", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "p-3 rounded-lg bg-white border border-gray-200 mb-2");
@@ -14963,7 +14963,7 @@ const __snapshot_62654_5d1b6_44 = /*#__PURE__*/ (__webpack_require__("(react:mai
         7
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_43 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_43", function() {
+const __snapshot_62654_eec77_43 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_43", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     const el1 = __CreateText(pageId);
@@ -14985,7 +14985,7 @@ const __snapshot_62654_5d1b6_43 = /*#__PURE__*/ (__webpack_require__("(react:mai
         3
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_39 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_39", function() {
+const __snapshot_62654_eec77_39 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_39", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "p-4 rounded-xl bg-gray-50 border border-gray-200 mb-3");
@@ -15044,7 +15044,7 @@ const __snapshot_62654_5d1b6_39 = /*#__PURE__*/ (__webpack_require__("(react:mai
         9
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_38 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_38", function() {
+const __snapshot_62654_eec77_38 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_38", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "bg-white rounded-2xl border border-gray-200 p-5 mb-4");
@@ -15067,7 +15067,7 @@ const __snapshot_62654_5d1b6_38 = /*#__PURE__*/ (__webpack_require__("(react:mai
         3
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_19 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_19", function() {
+const __snapshot_62654_eec77_19 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_19", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     const el1 = __CreateView(pageId);
@@ -15182,7 +15182,7 @@ const __snapshot_62654_5d1b6_19 = /*#__PURE__*/ (__webpack_require__("(react:mai
         22
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_53 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_53", function() {
+const __snapshot_62654_eec77_53 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_53", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "font-medium text-gray-800");
@@ -15190,7 +15190,7 @@ const __snapshot_62654_5d1b6_53 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_54 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_54", function() {
+const __snapshot_62654_eec77_54 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_54", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-gray-600 mt-1 block");
@@ -15198,7 +15198,7 @@ const __snapshot_62654_5d1b6_54 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_52 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_52", function() {
+const __snapshot_62654_eec77_52 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_52", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "bg-gray-50 p-4 rounded-lg border border-gray-200");
@@ -15221,7 +15221,7 @@ const __snapshot_62654_5d1b6_52 = /*#__PURE__*/ (__webpack_require__("(react:mai
         2
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_51 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_51", function() {
+const __snapshot_62654_eec77_51 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_51", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "space-y-3");
@@ -15229,7 +15229,7 @@ const __snapshot_62654_5d1b6_51 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_50 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_50", function() {
+const __snapshot_62654_eec77_50 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_50", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "mb-6");
@@ -15262,7 +15262,7 @@ const __snapshot_62654_5d1b6_50 = /*#__PURE__*/ (__webpack_require__("(react:mai
         5
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_57 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_57", function() {
+const __snapshot_62654_eec77_57 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_57", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateImage(pageId);
     __SetClasses(el, "w-28 h-28 rounded-md");
@@ -15274,7 +15274,7 @@ const __snapshot_62654_5d1b6_57 = /*#__PURE__*/ (__webpack_require__("(react:mai
         if (ctx.__elements) __SetAttribute(ctx.__elements[0], "src", ctx.__values[0]);
     }
 ], null, undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_56 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_56", function() {
+const __snapshot_62654_eec77_56 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_56", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     const el1 = __CreateView(pageId);
@@ -15295,7 +15295,7 @@ const __snapshot_62654_5d1b6_56 = /*#__PURE__*/ (__webpack_require__("(react:mai
         1
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_55 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_55", function() {
+const __snapshot_62654_eec77_55 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_55", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "flex");
@@ -15303,7 +15303,7 @@ const __snapshot_62654_5d1b6_55 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_59 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_59", function() {
+const __snapshot_62654_eec77_59 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_59", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "font-semibold text-gray-800 mb-2");
@@ -15311,7 +15311,7 @@ const __snapshot_62654_5d1b6_59 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_60 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_60", function() {
+const __snapshot_62654_eec77_60 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_60", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     return [
@@ -15322,7 +15322,7 @@ const __snapshot_62654_5d1b6_60 = /*#__PURE__*/ (__webpack_require__("(react:mai
         if (ctx.__elements) __SetClasses(ctx.__elements[0], ctx.__values[0] || '');
     }
 ], (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_61 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_61", function() {
+const __snapshot_62654_eec77_61 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_61", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "font-medium text-gray-800");
@@ -15330,7 +15330,7 @@ const __snapshot_62654_5d1b6_61 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_62 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_62", function() {
+const __snapshot_62654_eec77_62 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_62", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "font-medium text-gray-800");
@@ -15338,7 +15338,7 @@ const __snapshot_62654_5d1b6_62 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_63 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_63", function() {
+const __snapshot_62654_eec77_63 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_63", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "font-medium text-green-600");
@@ -15346,7 +15346,7 @@ const __snapshot_62654_5d1b6_63 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_64 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_64", function() {
+const __snapshot_62654_eec77_64 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_64", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "font-medium text-red-600");
@@ -15354,7 +15354,7 @@ const __snapshot_62654_5d1b6_64 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_65 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_65", function() {
+const __snapshot_62654_eec77_65 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_65", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "font-medium text-gray-800");
@@ -15362,7 +15362,7 @@ const __snapshot_62654_5d1b6_65 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_58 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_58", function() {
+const __snapshot_62654_eec77_58 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_58", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "p-4 rounded-xl bg-gray-50 border border-gray-200");
@@ -15520,7 +15520,7 @@ const __snapshot_62654_5d1b6_58 = /*#__PURE__*/ (__webpack_require__("(react:mai
         31
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_68 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_68", function() {
+const __snapshot_62654_eec77_68 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_68", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     return [
@@ -15531,7 +15531,7 @@ const __snapshot_62654_5d1b6_68 = /*#__PURE__*/ (__webpack_require__("(react:mai
         if (ctx.__elements) __SetClasses(ctx.__elements[0], ctx.__values[0] || '');
     }
 ], (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_69 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_69", function() {
+const __snapshot_62654_eec77_69 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_69", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "font-medium text-gray-800");
@@ -15539,7 +15539,7 @@ const __snapshot_62654_5d1b6_69 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_70 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_70", function() {
+const __snapshot_62654_eec77_70 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_70", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "font-medium text-green-600");
@@ -15547,7 +15547,119 @@ const __snapshot_62654_5d1b6_70 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_72 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_72", function() {
+const __snapshot_62654_eec77_76 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_76", function() {
+    const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
+    const el = __CreateText(pageId);
+    __SetClasses(el, "text-indigo-400 text-xl");
+    const el1 = __CreateRawText("✓");
+    __AppendElement(el, el1);
+    return [
+        el,
+        el1
+    ];
+}, null, null, undefined, globDynamicComponentEntry);
+const __snapshot_62654_eec77_75 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_75", function() {
+    const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
+    const el = __CreateView(pageId);
+    __SetClasses(el, "w-6 h-6 border-2 border-gray-300 rounded flex items-center justify-center mr-3");
+    return [
+        el
+    ];
+}, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
+const __snapshot_62654_eec77_77 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_77", function() {
+    const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
+    const el = __CreateText(pageId);
+    __SetClasses(el, "font-medium text-gray-800");
+    return [
+        el
+    ];
+}, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
+const __snapshot_62654_eec77_78 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_78", function() {
+    const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
+    const el = __CreateText(pageId);
+    __SetClasses(el, "text-gray-600 text-sm");
+    return [
+        el
+    ];
+}, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
+const __snapshot_62654_eec77_74 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_74", function() {
+    const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
+    const el = __CreateView(pageId);
+    __SetClasses(el, "flex items-center bg-white p-3 rounded-lg border border-gray-200");
+    const el1 = __CreateWrapperElement(pageId);
+    __AppendElement(el, el1);
+    const el2 = __CreateView(pageId);
+    __SetClasses(el2, "flex-1");
+    __AppendElement(el, el2);
+    const el3 = __CreateWrapperElement(pageId);
+    __AppendElement(el2, el3);
+    const el4 = __CreateWrapperElement(pageId);
+    __AppendElement(el2, el4);
+    return [
+        el,
+        el1,
+        el2,
+        el3,
+        el4
+    ];
+}, [
+    (snapshot, index, oldValue)=>(__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .updateEvent */.updateEvent)(snapshot, index, oldValue, 0, "bindEvent", "tap", '')
+], [
+    [
+        (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartSlot */.__DynamicPartSlot),
+        1
+    ],
+    [
+        (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartSlot */.__DynamicPartSlot),
+        3
+    ],
+    [
+        (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartSlot */.__DynamicPartSlot),
+        4
+    ]
+], undefined, globDynamicComponentEntry);
+const __snapshot_62654_eec77_73 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_73", function() {
+    const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
+    const el = __CreateView(pageId);
+    __SetClasses(el, "space-y-2");
+    return [
+        el
+    ];
+}, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
+const __snapshot_62654_eec77_72 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_72", function() {
+    const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
+    const el = __CreateView(pageId);
+    __SetClasses(el, "mt-4");
+    const el1 = __CreateText(pageId);
+    __SetClasses(el1, "text-md font-medium mb-3");
+    __AppendElement(el, el1);
+    const el2 = __CreateRawText("Select Failed Criteria (");
+    __AppendElement(el1, el2);
+    const el3 = __CreateWrapperElement(pageId);
+    __AppendElement(el1, el3);
+    const el4 = __CreateRawText("items failed):");
+    __AppendElement(el1, el4);
+    const el5 = __CreateWrapperElement(pageId);
+    __AppendElement(el, el5);
+    return [
+        el,
+        el1,
+        el2,
+        el3,
+        el4,
+        el5
+    ];
+}, null, [
+    [
+        (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartSlot */.__DynamicPartSlot),
+        3
+    ],
+    [
+        (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartSlot */.__DynamicPartSlot),
+        5
+    ]
+], undefined, globDynamicComponentEntry);
+const __snapshot_62654_eec77_79 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_79", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-white text-lg font-medium");
@@ -15555,7 +15667,7 @@ const __snapshot_62654_5d1b6_72 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_73 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_73", function() {
+const __snapshot_62654_eec77_80 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_80", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-red-500 text-sm mt-2");
@@ -15563,7 +15675,7 @@ const __snapshot_62654_5d1b6_73 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_74 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_74", function() {
+const __snapshot_62654_eec77_81 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_81", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-green-500 text-sm mt-2");
@@ -15574,7 +15686,7 @@ const __snapshot_62654_5d1b6_74 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el1
     ];
 }, null, null, undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_71 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_71", function() {
+const __snapshot_62654_eec77_71 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_71", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "p-3 rounded-lg bg-white border border-gray-200 mb-3");
@@ -15610,12 +15722,14 @@ const __snapshot_62654_5d1b6_71 = /*#__PURE__*/ (__webpack_require__("(react:mai
     __SetClasses(el10, "flex-1 h-8 px-2 border border-slate-300 rounded-xl text-lg");
     __SetAttribute(el10, "placeholder", "Add a note (optional)");
     __AppendElement(el7, el10);
-    const el11 = __CreateView(pageId);
+    const el11 = __CreateWrapperElement(pageId);
     __AppendElement(el, el11);
-    const el12 = __CreateWrapperElement(pageId);
-    __AppendElement(el11, el12);
+    const el12 = __CreateView(pageId);
+    __AppendElement(el, el12);
     const el13 = __CreateWrapperElement(pageId);
-    __AppendElement(el, el13);
+    __AppendElement(el12, el13);
+    const el14 = __CreateWrapperElement(pageId);
+    __AppendElement(el, el14);
     return [
         el,
         el1,
@@ -15630,7 +15744,8 @@ const __snapshot_62654_5d1b6_71 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el10,
         el11,
         el12,
-        el13
+        el13,
+        el14
     ];
 }, [
     function(ctx) {
@@ -15648,20 +15763,24 @@ const __snapshot_62654_5d1b6_71 = /*#__PURE__*/ (__webpack_require__("(react:mai
     },
     (snapshot, index, oldValue)=>(__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .updateEvent */.updateEvent)(snapshot, index, oldValue, 10, "bindEvent", "input", ''),
     function(ctx) {
-        if (ctx.__elements) __SetClasses(ctx.__elements[11], ctx.__values[6] || '');
+        if (ctx.__elements) __SetClasses(ctx.__elements[12], ctx.__values[6] || '');
     },
-    (snapshot, index, oldValue)=>(__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .updateEvent */.updateEvent)(snapshot, index, oldValue, 11, "bindEvent", "tap", '')
+    (snapshot, index, oldValue)=>(__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .updateEvent */.updateEvent)(snapshot, index, oldValue, 12, "bindEvent", "tap", '')
 ], [
     [
         (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartSlot */.__DynamicPartSlot),
-        12
+        11
     ],
     [
         (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartSlot */.__DynamicPartSlot),
         13
+    ],
+    [
+        (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartSlot */.__DynamicPartSlot),
+        14
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_76 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_76", function() {
+const __snapshot_62654_eec77_83 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_83", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-sm font-medium text-gray-800");
@@ -15669,7 +15788,7 @@ const __snapshot_62654_5d1b6_76 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_77 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_77", function() {
+const __snapshot_62654_eec77_84 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_84", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetClasses(el, "text-sm font-medium text-gray-800");
@@ -15677,7 +15796,7 @@ const __snapshot_62654_5d1b6_77 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_78 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_78", function() {
+const __snapshot_62654_eec77_85 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_85", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     return [
@@ -15688,7 +15807,7 @@ const __snapshot_62654_5d1b6_78 = /*#__PURE__*/ (__webpack_require__("(react:mai
         if (ctx.__elements) __SetClasses(ctx.__elements[0], ctx.__values[0] || '');
     }
 ], (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_79 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_79", function() {
+const __snapshot_62654_eec77_86 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_86", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "mt-2");
@@ -15716,7 +15835,7 @@ const __snapshot_62654_5d1b6_79 = /*#__PURE__*/ (__webpack_require__("(react:mai
         4
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_75 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_75", function() {
+const __snapshot_62654_eec77_82 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_82", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "p-3 rounded-lg bg-white border border-gray-200");
@@ -15812,7 +15931,7 @@ const __snapshot_62654_5d1b6_75 = /*#__PURE__*/ (__webpack_require__("(react:mai
         19
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_67 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_67", function() {
+const __snapshot_62654_eec77_67 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_67", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "p-4 rounded-xl bg-gray-50 border border-gray-200 mb-3");
@@ -15900,7 +16019,7 @@ const __snapshot_62654_5d1b6_67 = /*#__PURE__*/ (__webpack_require__("(react:mai
         16
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_66 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_66", function() {
+const __snapshot_62654_eec77_66 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_66", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "bg-white rounded-2xl border border-gray-200 p-5 mb-4");
@@ -15923,7 +16042,7 @@ const __snapshot_62654_5d1b6_66 = /*#__PURE__*/ (__webpack_require__("(react:mai
         3
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_80 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_80", function() {
+const __snapshot_62654_eec77_87 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_87", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "bg-white rounded-2xl border border-gray-200 p-5 mb-4 items-center");
@@ -15956,7 +16075,7 @@ const __snapshot_62654_5d1b6_80 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el7
     ];
 }, null, null, undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_49 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_49", function() {
+const __snapshot_62654_eec77_49 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_49", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     const el1 = __CreateWrapperElement(pageId);
@@ -16009,7 +16128,7 @@ const __snapshot_62654_5d1b6_49 = /*#__PURE__*/ (__webpack_require__("(react:mai
         8
     ]
 ], undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_18 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_18", function() {
+const __snapshot_62654_eec77_18 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_18", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "px-4 mt-4");
@@ -16017,7 +16136,7 @@ const __snapshot_62654_5d1b6_18 = /*#__PURE__*/ (__webpack_require__("(react:mai
         el
     ];
 }, null, (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry);
-const __snapshot_62654_5d1b6_4 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_5d1b6_4", function() {
+const __snapshot_62654_eec77_4 = /*#__PURE__*/ (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_62654_eec77_4", function() {
     const pageId = (__webpack_require__("(react:main-thread)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateScrollView(pageId);
     __SetAttribute(el, "scroll-orientation", "vertical");
@@ -16467,6 +16586,7 @@ function TaskDetailPage() {
     const [qualityCheckSuccess, setQualityCheckSuccess] = (0,_lynx_js_react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
     const [passedQty, setPassedQty] = (0,_lynx_js_react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);
     const [note, setNote] = (0,_lynx_js_react__WEBPACK_IMPORTED_MODULE_1__.useState)("");
+    const [selectedFailedEvaluationCriteriaIds, setSelectedFailedEvaluationCriteriaIds] = (0,_lynx_js_react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);
     (0,_lynx_js_react__WEBPACK_IMPORTED_MODULE_1__.useEffect)();
     // Get status color
     const getStatusColor = (status, isDelayed)=>{
@@ -16506,7 +16626,8 @@ function TaskDetailPage() {
                     checkQualityId,
                     passedQuantity,
                     failedQuantity: selectedOrderDetail ? selectedOrderDetail.quantity - passedQuantity : 0,
-                    note
+                    note,
+                    failedEvaluationCriteriaIds: selectedFailedEvaluationCriteriaIds
                 }
             });
             if ((_result_doneCheckQuality = result.doneCheckQuality) === null || _result_doneCheckQuality === void 0 ? void 0 : _result_doneCheckQuality.id) {
@@ -16523,31 +16644,31 @@ function TaskDetailPage() {
             setQualityCheckLoading(false);
         }
     };
-    if (loading) return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_1, {}, void 0, false, {
+    if (loading) return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_1, {}, void 0, false, {
         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-        lineNumber: 145,
+        lineNumber: 150,
         columnNumber: 7
     }, this);
-    if (error) return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_2, {
+    if (error) return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_2, {
         children: error
     }, void 0, false, {
         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-        lineNumber: 160,
+        lineNumber: 165,
         columnNumber: 7
     }, this);
-    if (!order) return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_3, {
+    if (!order) return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_3, {
         values: [
             1
         ]
     }, void 0, false, {
         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-        lineNumber: 178,
+        lineNumber: 183,
         columnNumber: 7
     }, this);
     const statusStyle = getStatusColor(order.status, order.isDelayed);
     const progressPercentage = Math.min(order.currentProgress, 100);
     const selectedOrderDetail = (_order_orderDetails = order.orderDetails) === null || _order_orderDetails === void 0 ? void 0 : _order_orderDetails[selectedOrderDetailIndex];
-    return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_4, {
+    return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_4, {
         values: [
             1,
             1,
@@ -16573,110 +16694,110 @@ function TaskDetailPage() {
             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(order.orderDate)
             }, void 0, false, void 0, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_5, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_5, {
                 values: [
                     `text-sm font-bold ${statusStyle.text}`
                 ],
                 children: order.isDelayed ? "DELAYED" : order.status
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 256,
+                lineNumber: 261,
                 columnNumber: 15
             }, this),
             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                 children: progressPercentage
             }, void 0, false, void 0, this),
             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
-                children: order.estimatedCompletionAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_6, {
+                children: order.estimatedCompletionAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_6, {
                     children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(order.estimatedCompletionAt)
                 }, void 0, false, {
                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                    lineNumber: 269,
+                    lineNumber: 274,
                     columnNumber: 17
                 }, this)
             }, void 0, false, void 0, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_7, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_7, {
                 children: order.totalItems
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 293,
+                lineNumber: 298,
                 columnNumber: 15
             }, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_8, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_8, {
                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatCurrency)(order.totalPrice)
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 299,
+                lineNumber: 304,
                 columnNumber: 15
             }, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_9, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_9, {
                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatCurrency)(order.shippingPrice)
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 305,
+                lineNumber: 310,
                 columnNumber: 15
             }, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_10, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_10, {
                 children: (order === null || order === void 0 ? void 0 : (_order_customer = order.customer) === null || _order_customer === void 0 ? void 0 : (_order_customer_name = _order_customer.name) === null || _order_customer_name === void 0 ? void 0 : _order_customer_name.charAt(0)) || "C"
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 322,
+                lineNumber: 327,
                 columnNumber: 19
             }, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_11, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_11, {
                 children: order === null || order === void 0 ? void 0 : order.customer.name
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 326,
+                lineNumber: 331,
                 columnNumber: 17
             }, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_12, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_12, {
                 children: (_order_customer1 = order.customer) === null || _order_customer1 === void 0 ? void 0 : _order_customer1.email
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 329,
+                lineNumber: 334,
                 columnNumber: 17
             }, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_13, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_13, {
                 children: ((_order_factory = order.factory) === null || _order_factory === void 0 ? void 0 : (_order_factory_name = _order_factory.name) === null || _order_factory_name === void 0 ? void 0 : _order_factory_name.charAt(0)) || "F"
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 340,
+                lineNumber: 345,
                 columnNumber: 19
             }, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_14, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_14, {
                 children: ((_order_factory1 = order.factory) === null || _order_factory1 === void 0 ? void 0 : _order_factory1.name) || "Not assigned"
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 344,
+                lineNumber: 349,
                 columnNumber: 17
             }, this),
             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
-                children: ((_order_factory2 = order.factory) === null || _order_factory2 === void 0 ? void 0 : _order_factory2.owner) && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_15, {
+                children: ((_order_factory2 = order.factory) === null || _order_factory2 === void 0 ? void 0 : _order_factory2.owner) && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_15, {
                     children: order.factory.owner.name
                 }, void 0, false, {
                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                    lineNumber: 348,
+                    lineNumber: 353,
                     columnNumber: 19
                 }, this)
             }, void 0, false, void 0, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_16, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_16, {
                 children: ((_order_address = order.address) === null || _order_address === void 0 ? void 0 : _order_address.formattedAddress) || "No address provided"
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 364,
+                lineNumber: 369,
                 columnNumber: 15
             }, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_17, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_17, {
                 children: ((_order_factory3 = order.factory) === null || _order_factory3 === void 0 ? void 0 : (_order_factory_address = _order_factory3.address) === null || _order_factory_address === void 0 ? void 0 : _order_factory_address.formattedAddress) || "No address provided"
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 372,
+                lineNumber: 377,
                 columnNumber: 15
             }, this),
-            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_18, {
+            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_18, {
                 children: [
-                    activeTab === "details" && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_19, {
+                    activeTab === "details" && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_19, {
                         children: [
                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(order.orderDate)
@@ -16689,7 +16810,7 @@ function TaskDetailPage() {
                             }, void 0, true, void 0, this),
                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                 children: [
-                                    order.assignedAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_20, {
+                                    order.assignedAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_20, {
                                         children: [
                                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(order.assignedAt)
@@ -16703,10 +16824,10 @@ function TaskDetailPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                        lineNumber: 438,
+                                        lineNumber: 443,
                                         columnNumber: 19
                                     }, this),
-                                    order.acceptedAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_21, {
+                                    order.acceptedAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_21, {
                                         children: [
                                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(order.acceptedAt)
@@ -16720,10 +16841,10 @@ function TaskDetailPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                        lineNumber: 451,
+                                        lineNumber: 456,
                                         columnNumber: 19
                                     }, this),
-                                    order.doneProductionAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_22, {
+                                    order.doneProductionAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_22, {
                                         children: [
                                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(order.doneProductionAt)
@@ -16737,10 +16858,10 @@ function TaskDetailPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                        lineNumber: 464,
+                                        lineNumber: 469,
                                         columnNumber: 19
                                     }, this),
-                                    order.doneCheckQualityAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_23, {
+                                    order.doneCheckQualityAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_23, {
                                         children: [
                                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(order.doneCheckQualityAt)
@@ -16754,10 +16875,10 @@ function TaskDetailPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                        lineNumber: 477,
+                                        lineNumber: 482,
                                         columnNumber: 19
                                     }, this),
-                                    order.shippedAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_24, {
+                                    order.shippedAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_24, {
                                         children: [
                                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(order.shippedAt)
@@ -16771,10 +16892,10 @@ function TaskDetailPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                        lineNumber: 490,
+                                        lineNumber: 495,
                                         columnNumber: 19
                                     }, this),
-                                    order.completedAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_25, {
+                                    order.completedAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_25, {
                                         children: [
                                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(order.completedAt)
@@ -16788,20 +16909,20 @@ function TaskDetailPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                        lineNumber: 501,
+                                        lineNumber: 506,
                                         columnNumber: 19
                                     }, this),
-                                    !order.completedAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_26, {
-                                        children: order.estimatedCompletionAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_27, {
+                                    !order.completedAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_26, {
+                                        children: order.estimatedCompletionAt && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_27, {
                                             children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(order.estimatedCompletionAt)
                                         }, void 0, false, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 520,
+                                            lineNumber: 525,
                                             columnNumber: 23
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                        lineNumber: 514,
+                                        lineNumber: 519,
                                         columnNumber: 19
                                     }, this)
                                 ]
@@ -16815,7 +16936,7 @@ function TaskDetailPage() {
                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                 children: (_order_orderDetails3 = order.orderDetails) === null || _order_orderDetails3 === void 0 ? void 0 : _order_orderDetails3.map((detail, index)=>{
                                     var _detail_systemConfigVariant, _detail_design, _detail_systemConfigVariant1;
-                                    return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_28, {
+                                    return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_28, {
                                         values: [
                                             `p-4 rounded-xl ${index === selectedOrderDetailIndex ? "bg-blue-50 border border-blue-200" : "bg-gray-50 border border-gray-200"} mb-3`,
                                             1,
@@ -16824,19 +16945,19 @@ function TaskDetailPage() {
                                             ]
                                         ],
                                         children: [
-                                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_29, {
-                                                children: ((_detail_design = detail.design) === null || _detail_design === void 0 ? void 0 : _detail_design.thumbnailUrl) && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_30, {
+                                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_29, {
+                                                children: ((_detail_design = detail.design) === null || _detail_design === void 0 ? void 0 : _detail_design.thumbnailUrl) && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_30, {
                                                     values: [
                                                         detail.design.thumbnailUrl
                                                     ]
                                                 }, void 0, false, {
                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                    lineNumber: 550,
+                                                    lineNumber: 555,
                                                     columnNumber: 27
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                lineNumber: 548,
+                                                lineNumber: 553,
                                                 columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
@@ -16848,57 +16969,57 @@ function TaskDetailPage() {
                                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                 children: detail.quantity
                                             }, void 0, false, void 0, this),
-                                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_31, {
+                                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_31, {
                                                 children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatCurrency)(detail.price)
                                             }, void 0, false, {
                                                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                lineNumber: 577,
+                                                lineNumber: 582,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, detail.id, true, {
                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                        lineNumber: 537,
+                                        lineNumber: 542,
                                         columnNumber: 17
                                     }, this);
                                 })
                             }, void 0, false, void 0, this),
                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
-                                children: order.orderProgressReports && order.orderProgressReports.length > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_32, {
-                                    children: order.orderProgressReports.map((report, index)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_33, {
+                                children: order.orderProgressReports && order.orderProgressReports.length > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_32, {
+                                    children: order.orderProgressReports.map((report, index)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_33, {
                                             children: [
                                                 /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                     children: index + 1
                                                 }, void 0, false, void 0, this),
-                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_34, {
+                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_34, {
                                                     children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(report.reportDate)
                                                 }, void 0, false, {
                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                    lineNumber: 603,
+                                                    lineNumber: 608,
                                                     columnNumber: 25
                                                 }, this),
                                                 /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                     children: [
-                                                        report.note && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_35, {
+                                                        report.note && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_35, {
                                                             children: report.note
                                                         }, void 0, false, {
                                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                            lineNumber: 609,
+                                                            lineNumber: 614,
                                                             columnNumber: 25
                                                         }, this),
-                                                        report.imageUrls && report.imageUrls.length > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_36, {
-                                                            children: report.imageUrls.map((url, imgIndex)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_37, {
+                                                        report.imageUrls && report.imageUrls.length > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_36, {
+                                                            children: report.imageUrls.map((url, imgIndex)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_37, {
                                                                     values: [
                                                                         url
                                                                     ]
                                                                 }, imgIndex, false, {
                                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                    lineNumber: 617,
+                                                                    lineNumber: 622,
                                                                     columnNumber: 29
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                            lineNumber: 615,
+                                                            lineNumber: 620,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
@@ -16906,181 +17027,181 @@ function TaskDetailPage() {
                                             ]
                                         }, report.id, true, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 595,
+                                            lineNumber: 600,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                    lineNumber: 589,
+                                    lineNumber: 594,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, void 0, this),
                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
-                                children: order.payments && order.payments.length > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_38, {
-                                    children: order.payments.map((payment)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_39, {
+                                children: order.payments && order.payments.length > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_38, {
+                                    children: order.payments.map((payment)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_39, {
                                             values: [
                                                 `mt-1 px-3 py-1 rounded-full ${payment.status === "COMPLETED" ? "bg-green-100 text-green-600" : "bg-yellow-100 text-yellow-600"}`
                                             ],
                                             children: [
-                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_40, {
+                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_40, {
                                                     children: payment.type
                                                 }, void 0, false, {
                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                    lineNumber: 647,
+                                                    lineNumber: 652,
                                                     columnNumber: 23
                                                 }, this),
-                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_41, {
+                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_41, {
                                                     children: payment.status
                                                 }, void 0, false, {
                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                    lineNumber: 657,
+                                                    lineNumber: 662,
                                                     columnNumber: 25
                                                 }, this),
-                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_42, {
+                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_42, {
                                                     children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatCurrency)(payment.amount)
                                                 }, void 0, false, {
                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                    lineNumber: 663,
+                                                    lineNumber: 668,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
-                                                    children: payment.transactions && payment.transactions.length > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_43, {
-                                                        children: payment.transactions.map((transaction)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_44, {
+                                                    children: payment.transactions && payment.transactions.length > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_43, {
+                                                        children: payment.transactions.map((transaction)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_44, {
                                                                 values: [
                                                                     `px-2 py-0.5 rounded-full ${transaction.status === "COMPLETED" ? "bg-green-100 text-green-600" : "bg-yellow-100 text-yellow-600"}`
                                                                 ],
                                                                 children: [
-                                                                    /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_45, {
+                                                                    /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_45, {
                                                                         children: transaction.paymentMethod
                                                                     }, void 0, false, {
                                                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                        lineNumber: 681,
+                                                                        lineNumber: 686,
                                                                         columnNumber: 33
                                                                     }, this),
-                                                                    /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_46, {
+                                                                    /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_46, {
                                                                         children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatCurrency)(transaction.amount)
-                                                                    }, void 0, false, {
-                                                                        fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                        lineNumber: 684,
-                                                                        columnNumber: 33
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_47, {
-                                                                        children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(transaction.createdAt)
                                                                     }, void 0, false, {
                                                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
                                                                         lineNumber: 689,
                                                                         columnNumber: 33
                                                                     }, this),
-                                                                    /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_48, {
+                                                                    /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_47, {
+                                                                        children: (0,_utils_format_js__WEBPACK_IMPORTED_MODULE_5__.formatDate)(transaction.createdAt)
+                                                                    }, void 0, false, {
+                                                                        fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
+                                                                        lineNumber: 694,
+                                                                        columnNumber: 33
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_48, {
                                                                         children: transaction.status
                                                                     }, void 0, false, {
                                                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                        lineNumber: 699,
+                                                                        lineNumber: 704,
                                                                         columnNumber: 35
                                                                     }, this)
                                                                 ]
                                                             }, transaction.id, true, {
                                                                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                lineNumber: 676,
+                                                                lineNumber: 681,
                                                                 columnNumber: 29
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                        lineNumber: 670,
+                                                        lineNumber: 675,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, void 0, this)
                                             ]
                                         }, payment.id, true, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 642,
+                                            lineNumber: 647,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                    lineNumber: 636,
+                                    lineNumber: 641,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, void 0, this)
                         ]
                     }, void 0, true, {
                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                        lineNumber: 419,
+                        lineNumber: 424,
                         columnNumber: 11
                     }, this),
-                    activeTab === "quality" && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_49, {
+                    activeTab === "quality" && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_49, {
                         children: [
                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
-                                children: order.orderEvaluationCriteria && order.orderEvaluationCriteria.length > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_50, {
+                                children: order.orderEvaluationCriteria && order.orderEvaluationCriteria.length > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_50, {
                                     children: [
                                         /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                             children: order.orderEvaluationCriteria.length
                                         }, void 0, false, void 0, this),
-                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_51, {
-                                            children: order.orderEvaluationCriteria.map((criteria, index)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_52, {
+                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_51, {
+                                            children: order.orderEvaluationCriteria.map((criteria, index)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_52, {
                                                     children: [
-                                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_53, {
+                                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_53, {
                                                             children: criteria.evaluationCriteria.name
                                                         }, void 0, false, {
                                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                            lineNumber: 732,
+                                                            lineNumber: 737,
                                                             columnNumber: 25
                                                         }, this),
-                                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_54, {
+                                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_54, {
                                                             children: criteria.evaluationCriteria.description
                                                         }, void 0, false, {
                                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                            lineNumber: 735,
+                                                            lineNumber: 740,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, criteria.evaluationCriteria.id, true, {
                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                    lineNumber: 728,
+                                                    lineNumber: 733,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 726,
+                                            lineNumber: 731,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                    lineNumber: 721,
+                                    lineNumber: 726,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, void 0, this),
-                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_55, {
+                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_55, {
                                 children: (_order_orderDetails4 = order.orderDetails) === null || _order_orderDetails4 === void 0 ? void 0 : _order_orderDetails4.map((detail, index)=>{
                                     var _detail_design;
-                                    return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_56, {
+                                    return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_56, {
                                         values: [
                                             `rounded-xl w-28 h-28 ${index === selectedOrderDetailIndex ? "bg-blue-100 border border-blue-300" : "bg-gray-50 border border-gray-200"}`,
                                             1
                                         ],
-                                        children: ((_detail_design = detail.design) === null || _detail_design === void 0 ? void 0 : _detail_design.thumbnailUrl) && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_57, {
+                                        children: ((_detail_design = detail.design) === null || _detail_design === void 0 ? void 0 : _detail_design.thumbnailUrl) && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_57, {
                                             values: [
                                                 detail.design.thumbnailUrl
                                             ]
                                         }, void 0, false, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 771,
+                                            lineNumber: 776,
                                             columnNumber: 27
                                         }, this)
                                     }, detail.id, false, {
                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                        lineNumber: 760,
+                                        lineNumber: 765,
                                         columnNumber: 21
                                     }, this);
                                 })
                             }, void 0, false, {
                                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                lineNumber: 758,
+                                lineNumber: 763,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
-                                children: selectedOrderDetail && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_58, {
+                                children: selectedOrderDetail && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_58, {
                                     values: [
                                         `px-3 py-1 rounded-full ${getStatusColor(selectedOrderDetail.status, false).bg} ${getStatusColor(selectedOrderDetail.status, false).border}`,
                                         [
@@ -17088,70 +17209,70 @@ function TaskDetailPage() {
                                         ]
                                     ],
                                     children: [
-                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_59, {
+                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_59, {
                                             children: ((_selectedOrderDetail_systemConfigVariant1 = selectedOrderDetail.systemConfigVariant) === null || _selectedOrderDetail_systemConfigVariant1 === void 0 ? void 0 : (_selectedOrderDetail_systemConfigVariant_product = _selectedOrderDetail_systemConfigVariant1.product) === null || _selectedOrderDetail_systemConfigVariant_product === void 0 ? void 0 : _selectedOrderDetail_systemConfigVariant_product.name) || "Product"
                                         }, void 0, false, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 785,
+                                            lineNumber: 790,
                                             columnNumber: 21
                                         }, this),
-                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_60, {
+                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_60, {
                                             values: [
                                                 ` font-bold ${getStatusColor(selectedOrderDetail.status, false).text}`
                                             ],
                                             children: selectedOrderDetail.status
                                         }, void 0, false, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 796,
+                                            lineNumber: 801,
                                             columnNumber: 23
                                         }, this),
-                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_61, {
+                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_61, {
                                             children: ((_selectedOrderDetail_systemConfigVariant2 = selectedOrderDetail.systemConfigVariant) === null || _selectedOrderDetail_systemConfigVariant2 === void 0 ? void 0 : _selectedOrderDetail_systemConfigVariant2.size) || "N/A"
                                         }, void 0, false, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 809,
+                                            lineNumber: 814,
                                             columnNumber: 23
                                         }, this),
-                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_62, {
+                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_62, {
                                             children: selectedOrderDetail.quantity
                                         }, void 0, false, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 829,
+                                            lineNumber: 834,
                                             columnNumber: 23
                                         }, this),
-                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_63, {
+                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_63, {
                                             children: selectedOrderDetail.completedQty || 0
                                         }, void 0, false, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 838,
+                                            lineNumber: 843,
                                             columnNumber: 23
                                         }, this),
-                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_64, {
+                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_64, {
                                             children: selectedOrderDetail.rejectedQty || 0
                                         }, void 0, false, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 844,
+                                            lineNumber: 849,
                                             columnNumber: 23
                                         }, this),
-                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_65, {
+                                        /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_65, {
                                             children: selectedOrderDetail.isRework ? `Yes (${selectedOrderDetail.reworkTime || 0})` : "No"
                                         }, void 0, false, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 850,
+                                            lineNumber: 855,
                                             columnNumber: 23
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                    lineNumber: 783,
+                                    lineNumber: 788,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, void 0, this),
                             /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
-                                children: selectedOrderDetail && selectedOrderDetail.checkQualities && selectedOrderDetail.checkQualities.length > 0 ? /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_66, {
+                                children: selectedOrderDetail && selectedOrderDetail.checkQualities && selectedOrderDetail.checkQualities.length > 0 ? /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_66, {
                                     children: selectedOrderDetail.checkQualities.map((check, index)=>{
-                                        var _check_task_assignee;
-                                        return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_67, {
+                                        var _order_orderEvaluationCriteria, _check_task_assignee;
+                                        return /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_67, {
                                             values: [
                                                 `px-3 py-1 rounded-full ${getStatusColor(check.status, false).bg} ${getStatusColor(check.status, false).border}`
                                             ],
@@ -17159,33 +17280,33 @@ function TaskDetailPage() {
                                                 /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                     children: index + 1
                                                 }, void 0, false, void 0, this),
-                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_68, {
+                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_68, {
                                                     values: [
                                                         ` font-bold ${getStatusColor(check.status, false).text}`
                                                     ],
                                                     children: check.status
                                                 }, void 0, false, {
                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                    lineNumber: 884,
+                                                    lineNumber: 889,
                                                     columnNumber: 25
                                                 }, this),
-                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_69, {
+                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_69, {
                                                     children: check.totalChecked || 0
                                                 }, void 0, false, {
                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                    lineNumber: 899,
+                                                    lineNumber: 904,
                                                     columnNumber: 25
                                                 }, this),
-                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_70, {
+                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_70, {
                                                     children: check.passedQuantity || 0
                                                 }, void 0, false, {
                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                    lineNumber: 905,
+                                                    lineNumber: 910,
                                                     columnNumber: 25
                                                 }, this),
                                                 /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                     children: [
-                                                        (order.status === "WAITING_FOR_CHECKING_QUALITY" || order.status === "REWORK_REQUIRED") && check.status === "PENDING" && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_71, {
+                                                        (order.status === "WAITING_FOR_CHECKING_QUALITY" || order.status === "REWORK_REQUIRED") && check.status === "PENDING" && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_71, {
                                                             values: [
                                                                 selectedOrderDetail.quantity,
                                                                 `passed-qty-${check.id}`,
@@ -17193,29 +17314,87 @@ function TaskDetailPage() {
                                                                 1,
                                                                 note,
                                                                 1,
-                                                                `h-12 flex justify-center items-center rounded-xl ${qualityCheckLoading ? "bg-indigo-300" : "bg-indigo-400"} text-center`,
+                                                                `h-12 flex justify-center items-center rounded-xl mt-4 ${qualityCheckLoading ? "bg-indigo-300" : "bg-indigo-400"} text-center`,
                                                                 1
                                                             ],
                                                             children: [
-                                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_72, {
+                                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
+                                                                    children: selectedOrderDetail && selectedOrderDetail.quantity - passedQty > 0 && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_72, {
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
+                                                                                children: [
+                                                                                    selectedOrderDetail.quantity - passedQty,
+                                                                                    " "
+                                                                                ]
+                                                                            }, void 0, true, void 0, this),
+                                                                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_73, {
+                                                                                children: (_order_orderEvaluationCriteria = order.orderEvaluationCriteria) === null || _order_orderEvaluationCriteria === void 0 ? void 0 : _order_orderEvaluationCriteria.map((criteria)=>/*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_74, {
+                                                                                        values: [
+                                                                                            1
+                                                                                        ],
+                                                                                        children: [
+                                                                                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_75, {
+                                                                                                children: selectedFailedEvaluationCriteriaIds.includes(criteria.evaluationCriteria.id) && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_76, {}, void 0, false, {
+                                                                                                    fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
+                                                                                                    lineNumber: 1000,
+                                                                                                    columnNumber: 45
+                                                                                                }, this)
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
+                                                                                                lineNumber: 996,
+                                                                                                columnNumber: 41
+                                                                                            }, this),
+                                                                                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_77, {
+                                                                                                children: criteria.evaluationCriteria.name
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
+                                                                                                lineNumber: 1006,
+                                                                                                columnNumber: 43
+                                                                                            }, this),
+                                                                                            /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_78, {
+                                                                                                children: criteria.evaluationCriteria.description
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
+                                                                                                lineNumber: 1009,
+                                                                                                columnNumber: 43
+                                                                                            }, this)
+                                                                                        ]
+                                                                                    }, criteria.evaluationCriteria.id, true, {
+                                                                                        fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
+                                                                                        lineNumber: 968,
+                                                                                        columnNumber: 39
+                                                                                    }, this))
+                                                                            }, void 0, false, {
+                                                                                fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
+                                                                                lineNumber: 965,
+                                                                                columnNumber: 33
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
+                                                                        lineNumber: 959,
+                                                                        columnNumber: 31
+                                                                    }, this)
+                                                                }, void 0, false, void 0, this),
+                                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_79, {
                                                                     children: qualityCheckLoading ? "Processing..." : "Complete Quality Check"
                                                                 }, void 0, false, {
                                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                    lineNumber: 961,
+                                                                    lineNumber: 1033,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
                                                                     children: [
-                                                                        qualityCheckError && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_73, {
+                                                                        qualityCheckError && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_80, {
                                                                             children: qualityCheckError
                                                                         }, void 0, false, {
                                                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                            lineNumber: 969,
+                                                                            lineNumber: 1041,
                                                                             columnNumber: 29
                                                                         }, this),
-                                                                        qualityCheckSuccess && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_74, {}, void 0, false, {
+                                                                        qualityCheckSuccess && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_81, {}, void 0, false, {
                                                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                            lineNumber: 975,
+                                                                            lineNumber: 1047,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
@@ -17223,51 +17402,51 @@ function TaskDetailPage() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                            lineNumber: 915,
+                                                            lineNumber: 920,
                                                             columnNumber: 25
                                                         }, this),
-                                                        check.task && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_75, {
+                                                        check.task && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_82, {
                                                             values: [
                                                                 `px-2 py-0.5 rounded-full ${getStatusColor(check.task.status, false).bg} ${getStatusColor(check.task.status, false).border}`
                                                             ],
                                                             children: [
-                                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_76, {
+                                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_83, {
                                                                     children: check.task.taskname
                                                                 }, void 0, false, {
                                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                    lineNumber: 993,
+                                                                    lineNumber: 1065,
                                                                     columnNumber: 29
                                                                 }, this),
-                                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_77, {
+                                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_84, {
                                                                     children: ((_check_task_assignee = check.task.assignee) === null || _check_task_assignee === void 0 ? void 0 : _check_task_assignee.name) || "Unassigned"
                                                                 }, void 0, false, {
                                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                    lineNumber: 1004,
+                                                                    lineNumber: 1076,
                                                                     columnNumber: 29
                                                                 }, this),
-                                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_78, {
+                                                                /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_85, {
                                                                     values: [
                                                                         `font-bold ${getStatusColor(check.task.status, false).text}`
                                                                     ],
                                                                     children: check.task.status
                                                                 }, void 0, false, {
                                                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                    lineNumber: 1020,
+                                                                    lineNumber: 1092,
                                                                     columnNumber: 31
                                                                 }, this),
                                                                 /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("wrapper", {
-                                                                    children: check.task.note && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_79, {
+                                                                    children: check.task.note && /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_86, {
                                                                         children: check.task.note
                                                                     }, void 0, false, {
                                                                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                                        lineNumber: 1032,
+                                                                        lineNumber: 1104,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, void 0, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                                            lineNumber: 983,
+                                                            lineNumber: 1055,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
@@ -17275,36 +17454,36 @@ function TaskDetailPage() {
                                             ]
                                         }, check.id, true, {
                                             fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                            lineNumber: 871,
+                                            lineNumber: 876,
                                             columnNumber: 19
                                         }, this);
                                     })
                                 }, void 0, false, {
                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                    lineNumber: 865,
+                                    lineNumber: 870,
                                     columnNumber: 15
-                                }, this) : /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_5d1b6_80, {}, void 0, false, {
+                                }, this) : /*#__PURE__*/ (0,_lynx_js_react_lepus_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_62654_eec77_87, {}, void 0, false, {
                                     fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                                    lineNumber: 1047,
+                                    lineNumber: 1119,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, void 0, this)
                         ]
                     }, void 0, true, {
                         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                        lineNumber: 717,
+                        lineNumber: 722,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, false, {
                 fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-                lineNumber: 416,
+                lineNumber: 421,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "D:\\Project\\GoodsDesign\\GoodsDesign-Mobile\\src\\pages\\task\\TaskDetailPage.tsx",
-        lineNumber: 205,
+        lineNumber: 210,
         columnNumber: 5
     }, this);
 }
@@ -18248,7 +18427,7 @@ __webpack_require__.hu = (chunkId) => ('' + chunkId + '.' + __webpack_require__.
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("c503f092cb7a838e")
+__webpack_require__.h = () => ("6110d21cbf85d9aa")
 })();
 // webpack/runtime/get_main_filename/update manifest
 (() => {
@@ -18713,7 +18892,7 @@ if (typeof globalThis !== "undefined") {
 // webpack/runtime/lynx css hot update
 (() => {
 
-__webpack_require__.cssHotUpdateList = [["main__main-thread",".rspeedy/main__main-thread/main__main-thread.f85b369fac1f11d9.css.hot-update.json"]];
+__webpack_require__.cssHotUpdateList = [["main__main-thread",".rspeedy/main__main-thread/main__main-thread.edb991a32bd8e129.css.hot-update.json"]];
 
 })();
 // webpack/runtime/make_namespace_object

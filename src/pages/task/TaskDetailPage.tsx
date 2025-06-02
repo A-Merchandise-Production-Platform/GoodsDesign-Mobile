@@ -36,6 +36,10 @@ export default function TaskDetailPage() {
   const [qualityCheckSuccess, setQualityCheckSuccess] = useState(false);
   const [passedQty, setPassedQty] = useState<number>(0);
   const [note, setNote] = useState<string>("");
+  const [
+    selectedFailedEvaluationCriteriaIds,
+    setSelectedFailedEvaluationCriteriaIds,
+  ] = useState<string[]>([]);
 
   useEffect(() => {
     const fetchOrderDetails = async () => {
@@ -116,6 +120,7 @@ export default function TaskDetailPage() {
               ? selectedOrderDetail.quantity - passedQuantity
               : 0,
             note,
+            failedEvaluationCriteriaIds: selectedFailedEvaluationCriteriaIds,
           },
         }
       );
@@ -948,8 +953,75 @@ export default function TaskDetailPage() {
                             />
                           </view>
 
+                          {/* Failed Criteria Selection - Only show if there are failed items */}
+                          {selectedOrderDetail &&
+                            selectedOrderDetail.quantity - passedQty > 0 && (
+                              <view className="mt-4">
+                                <text className="text-md font-medium mb-3">
+                                  Select Failed Criteria (
+                                  {selectedOrderDetail.quantity - passedQty}{" "}
+                                  items failed):
+                                </text>
+                                <view className="space-y-2">
+                                  {order.orderEvaluationCriteria?.map(
+                                    (criteria) => (
+                                      <view
+                                        key={criteria.evaluationCriteria.id}
+                                        className="flex items-center bg-white p-3 rounded-lg border border-gray-200"
+                                        bindtap={() => {
+                                          setSelectedFailedEvaluationCriteriaIds(
+                                            (prev) => {
+                                              if (
+                                                prev.includes(
+                                                  criteria.evaluationCriteria.id
+                                                )
+                                              ) {
+                                                return prev.filter(
+                                                  (id) =>
+                                                    id !==
+                                                    criteria.evaluationCriteria
+                                                      .id
+                                                );
+                                              } else {
+                                                return [
+                                                  ...prev,
+                                                  criteria.evaluationCriteria
+                                                    .id,
+                                                ];
+                                              }
+                                            }
+                                          );
+                                        }}
+                                      >
+                                        <view className="w-6 h-6 border-2 border-gray-300 rounded flex items-center justify-center mr-3">
+                                          {selectedFailedEvaluationCriteriaIds.includes(
+                                            criteria.evaluationCriteria.id
+                                          ) && (
+                                            <text className="text-indigo-400 text-xl">
+                                              ✓
+                                            </text>
+                                          )}
+                                        </view>
+                                        <view className="flex-1">
+                                          <text className="font-medium text-gray-800">
+                                            {criteria.evaluationCriteria.name}
+                                          </text>
+                                          <text className="text-gray-600 text-sm">
+                                            {
+                                              criteria.evaluationCriteria
+                                                .description
+                                            }
+                                          </text>
+                                        </view>
+                                      </view>
+                                    )
+                                  )}
+                                </view>
+                              </view>
+                            )}
+
                           <view
-                            className={`h-12 flex justify-center items-center rounded-xl ${
+                            className={`h-12 flex justify-center items-center rounded-xl mt-4 ${
                               qualityCheckLoading
                                 ? "bg-indigo-300"
                                 : "bg-indigo-400"
